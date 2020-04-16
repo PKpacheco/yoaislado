@@ -4,7 +4,7 @@
    name: "Don"
    surname: "Mario"
    company: "Restaurante"
-   title: "Servicios de envio a domicicio, pedidos por el sitio. "
+   title: "Servicios de envio a domicicio, pedidos por el sitio"
    bio: "Envios a la Casa"
    thumbnailUrl: donmario.png
    rockstar: true
@@ -18,11 +18,11 @@
     name: "Sentite"
     surname: "Listo"
     company: "Comida Congelada"
-    title: "Envio de comida congelada a domicicio."
-    bio: "Envios a la Casa"
+    title: "Envio de comida congelada a domicicio"
+    bio: "Viandas semanales que llegan a tu casa "
     thumbnailUrl: sentitelisto.png
     rockstar: true
     ribbon:
-      - {abbr: "Envios", title: "Envios", url: "https://www.instagram.com/sentitelisto/"}
+      - {abbr: "Viandas", title: "Viandas", url: "https://www.instagram.com/sentitelisto/"}
     social:
-      - {name: "instageam", link: "https://www.instagram.com/sentitelisto/"}
+      - {name: "instagram", link: "https://www.instagram.com/sentitelisto/"}
