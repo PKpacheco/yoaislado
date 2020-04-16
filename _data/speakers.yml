@@ -1,37 +1,22 @@
+
  -
    id: 1
-   name: "Empresa 1  "
-   surname: "Moyano"
-   company: "Eventbrite"
-   title: ""
-   bio: "Software Engineer"
-   thumbnailUrl: cristian.png
+   name: "Don"
+   surname: "Mario"
+   company: "Restaurante"
+   title: "Servicios de envio a domicicio, pedidos por el sitio. "
+   bio: "Envios a la Casa"
+   thumbnailUrl: donmario.png
    rockstar: true
    ribbon:
-     #- {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
+     - {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
    social:
-     - {name: "linkedin", link: "https://www.linkedin.com/in/cristian-moyano/"}
+     - {name: "sitio", link: "#"}
 
  -
    id: 2
-   name: "Vinicius"
-   surname: "Pacheco"
-   company: "Eventbrite"
-   title: ""
-   bio: "Senior Software Engineer"
-   thumbnailUrl: vinicius.jpg
-   rockstar: true
-   ribbon:
-     #- {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-   social:
-     #- {name: "google-plus", link: "https://plus.google.com/+GabrielCSLima/"}
-     - {name: "twitter", link: "https://twitter.com/viniciuspach"}
-     #- {name: "github", link: "https://github.com/afonsopacifer"}
-
- -
-   id: 3
-   name: "Javier Hernán"
-   surname: "Caballero García"
+   name: "Sentite "
+   surname: "Listo"
    company: ""
    title: ""
    bio: "Test Automation Engineer "
@@ -44,220 +29,18 @@
      - {name: "github", link: "https://github.com/caballerojavier13"}
 
  -
-   id: 4
-   name: "Matías  "
-   surname: "Chomicki"
-   company: "VividCortex"
-   title: ""
+   id: 3
+   name: "ABC  "
+   surname: "ABC"
+   company: "comapny"
+   title: "title"
    bio: "Full-stack/fronten developer"
    thumbnailUrl: matias.jpg
    rockstar: true
    ribbon:
-     #- {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
+     - {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
    social:
-     #- {name: "google-plus", link: "https://plus.google.com/+GabrielCSLima/"}
-     #- {name: "twitter", link: "https://twitter.com/afonsopacifer"}
-     - {name: "github", link: "github.com/matyax"}
-
-#  -
-#    id: 5
-#    name: "Santiago "
-#    surname: "Beltramone"
-#    company: " "
-#    title: "Mat|r Team Leader - Software Engineer - IOS"
-#    bio: ""
-#    thumbnailUrl: santiago_beltramone.png
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      #- {name: "google-plus", link: "https://plus.google.com/+GabrielCSLima/"}
-#      # - {name: "twitter", link: "https://twitter.com/J4v1Sanchez"}
-#      # - {name: "github", link: "https://github.com/crismotinha"}
-
-#  -
-#    id: 6
-#    name: "Santiago"
-#    surname: "Hollmann"
-#    company: "Eventbrite"
-#    title: ""
-#    bio: ""
-#    thumbnailUrl: santi.jpg
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      #- {name: "google-plus", link: "https://plus.google.com/+GabrielCSLima/"}
-#      - {name: "twitter", link: "http://twitter.com/santihollmann"}
-#      - {name: "github", link: "http://github.com/santiago-hollmann"}
-#  -
-#    id: 7
-#    name: "Serguei"
-#    surname: "Outenkov"
-#    company: "Eventbrite"
-#    title: ""
-#    bio: ""
-#    thumbnailUrl: serguei.png
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      #- {name: "google-plus", link: "https://plus.google.com/+GabrielCSLima/"}
-#      # - {name: "twitter", link: "https://twitter.com/lfmangia"}
-#      # - {name: "github", link: "https://github.com/luisfernandomangia"}
-
-#  -
-#    id: 8
-#    name: "Fernando"
-#    surname: "Serrano"
-#    company: "Eventbrite"
-#    title: "Manager de Ingeniería"
-#    bio: ""
-#    thumbnailUrl: fernando.jpg
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#      #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      #- {name: "google-plus", link: "https://plus.google.com/+GabrielCSLima/"}
-#      # - {name: "twitter", link: "https://twitter.com/douglasdrumond"}
-#      # - {name: "github", link: "https://github.com/douglasdrumond"}
-
- -
-   id: 9
-   name: "Emiliano"
-   surname: "Panelli"
-   company: ""
-   title: "Co Fundador 316 Agencia "
-   bio: ""
-   thumbnailUrl: emiliano.jpg
-   rockstar: true
-   ribbon:
-     #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-     #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-   social:
-     #- {name: "google-plus", link: "https://plus.google.com/+GabrielCSLima/"}
-     - {name: "twitter", link: "https://twitter.com/@epanellii"}
-     # - {name: "github", link: "https://github.com/aoqfonseca"}
-
-#  -
-#    id: 10
-#    name: "Mariano"
-#    surname: "Vallés"
-#    company: "Eventbrite"
-#    title: "Software Engineer"
-#    bio: ""
-#    thumbnailUrl: mariano.jpg
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#      #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      #- {name: "google-plus", link: "https://plus.google.com/+PaulaAldeco/"}
-#      - {name: "twitter", link: "https://twitter.com/zucaritask"}
-#      # - {name: "github", link: "https://github.com/carloshpdoc"}
-
-#  -
-#    id: 11
-#    name: "Fede"
-#    surname: "Hernandez"
-#    company: "Olpays"
-#    title: "Software Engineer"
-#    bio: ""
-#    thumbnailUrl: fede.png
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#      #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      - {name: "twitter", link: "https://twitter.com/jfenderico"}
-#      - {name: "twitter", link: "https://twitter.com/Mendoza_JS"}
-#      - {name: "github", link: "https://github.com/jfenderico"}
-
-
-#  -
-#    id: 12
-#    name: "Paula"
-#    surname: "Aldeco"
-#    company: "AgilMentor"
-#    title: "co-fundadora de Agilmentor y emprendedora"
-#    bio: ""
-#    thumbnailUrl: paula.jpg
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#      #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      - {name: "twitter", link: "https://twitter.com/PaulaAmelieA "}
-#      - {name: "google-plus", link: "https://plus.google.com/+PaulaAldeco/"}
-#      # - {name: "github", link: "https://github.com/jfenderico"}
-
-
-#  -
-#    id: 13
-#    name: "Belén"
-#    surname: "Fernandez"
-#    company: "AgilMentor"
-#    title: "co-fundadora de Agilmentor y emprendedora"
-#    bio: ""
-#    thumbnailUrl: belen.jpg
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#      #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      - {name: "twitter", link: "https://twitter.com/m_belenf"}
-#      # - {name: "twitter", link: "https://twitter.com/Mendoza_JS"}
-#      # - {name: "github", link: "https://github.com/jfenderico"}
-
-#  -
-#    id: 14
-#    name: "Lucas"
-#    surname: "Padovan"
-#    company: "Eventbrite"
-#    title: "Cuasi-Ingeniero Front End"
-#    bio: ""
-#    thumbnailUrl: lucas.jpg
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#      #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      - {name: "twitter", link: "https://twitter.com/lucaspadovan"}
-#      # - {name: "twitter", link: "https://twitter.com/Mendoza_JS"}
-#      # - {name: "github", link: "https://github.com/jfenderico"}
-
-#  -
-#    id: 15
-#    name: "Cecilia "
-#    surname: "Giglio"
-#    company: "Eventbrite"
-#    title: "Diseñador"
-#    bio: ""
-#    thumbnailUrl: cecilia.jpg
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#      #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      - {name: "twitter", link: "https://twitter.com/diormesalve"}
-#      # - {name: "twitter", link: "https://twitter.com/Mendoza_JS"}
-#      # - {name: "github", link: "https://github.com/jfenderico"}
-
-#  -
-#    id: 16
-#    name: "Alejandro  "
-#    surname: "Prieto"
-#    company: "GlobalLogic"
-#    title: "UX/UI Practice Head "
-#    bio: ""
-#    thumbnailUrl: alejandro.png
-#    rockstar: true
-#    ribbon:
-#      #- {abbr: "Android Dev BR", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#      #- {abbr: "GDG São Paulo", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-#    social:
-#      # - {name: "twitter", link: "https://twitter.com/diormesalve"}
-#      # - {name: "twitter", link: "https://twitter.com/Mendoza_JS"}
-#      # - {name: "github", link: "https://github.com/jfenderico"}
+     - {name: "instagram", link: "https://plus.google.com/+aaa/"}
+     - {name: "facebook", link: "https://twitter.com/aaa"}
+     - {name: "site", link: "github.com/aaa"}
 
