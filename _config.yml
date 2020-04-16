@@ -14,7 +14,7 @@ title: "+Con"
 email: "masconmdz@gmail.com"
 description: "Evento para unirse al desarrollo de la comunidad Argentina."
 baseurl: "/argentina2018"
-url: "https://mas-con.github.io/"
+url: "http://pkpacheco.github.io/yoaislado/"
 permalink: "/blog/:title"
 # googleAnalyticsTrackingId: "UA-43643469-5"
 # googleAnalyticsSiteUrl: "gdg-x.github.io"
@@ -26,7 +26,7 @@ organizerAlternateName: "Los seres humanos que disfrutan de la tecnología"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
 organizerEmail: "masconferencia@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://mas-con.github.io/"
+organizerLink: "http://pkpacheco.github.io/yoaislado/"
 
 # Head
 metaKeywords: "event, mascon, mendoza, programacion, programming, design, argentina, "
@@ -44,7 +44,7 @@ c4sponsorsUrl: "mailto:masconmdz@gmail.com"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/schedule/", text: "Programación"}
- - {permalink: "/speakers/", text: "Oradores"}
+ - {permalink: "/speakers/", text: "Restaurantes"}
  - {permalink: "/team/", text: "Los organizadores"}
 
 # bottomNavigationLinks:
@@ -54,42 +54,43 @@ navigationLinks:
 
 # Hero Block
 heroImage: "black.png"
-heroTitle: "+Con | <typeout> "
-eventDate: "20 Octubre - UTN Mendoza"
-typeoutTextValues: '"", "ferencia", "versación ", "vos ", "Diseno" ,"desarrollo"'
+heroTitle: "Yo Aislado | <typeout> "
+eventDate: "Mendoza"
+typeoutTextValues: '"", "Restaurantes", "Negocios ", "Donaciones ", "Servicios" ,"otros"'
 typeoutFallback: "Season"
-# heroButtons:
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+heroButtons:
+ - {link: "https://bit.ly/#", text: "Queres sumar algo?"}
 #  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "Conocé +Con"
+aboutTitle: "Conocé Yo Aislado"
 aboutBlock:
- - {title: "Talks", image: "bigdata.jpg", text: "Charlas sobre lenguajes de programación, frameworks y más." }
- - {title: "Lightning Talks", image: "iot.png", text: "Lightning Talks, charlas más intensas sobre desarrollo." }
+ - {title: "Restaurantes", image: "food.png", text: "Restaurantes y Servicios de Comida." }
+ - {title: "Servicios ", image: "services.png", text: "Servicios en General." }
+ - {title: "Donaciones", image: "donacion.jpg", text: "Donaciones." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "180", specialCharacter: "+", info: "participantes", detail: ""}
- - {count: "7", specialCharacter: "+", info: "horas", detail: "charlas y contenido"}
- - {count: "15", specialCharacter: "+", info: "grandes", detail: "oradores"}
- - {count: "1", specialCharacter: "", info: "día", detail: "puro aprendizaje"}
+ - {count: "20", specialCharacter: "+", info: "Locales", detail: ""}
+ - {count: "10", specialCharacter: "+", info: "Restaurantes", detail: "y pequeños negocios"}
+ - {count: "10", specialCharacter: "+", info: "Servicios", detail: "en tu casa"}
+ - {count: "10", specialCharacter: "", info: "Locales", detail: "para donar y ayudar"}
 
 # Latest News Block
 latestNewsTitle: ""
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersImage: "restaurante.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Oradores"
-rockstarSpeakersButtonText: "Ver todos los oradores"
+rockstarSpeakersTitle: "Restaurantes | Comida"
+rockstarSpeakersButtonText: "Ver todos los Restaurantes"
 
 # Location Block
-locationBlockTitle: "UTN Mendoza"
+locationBlockTitle: "Mendoza"
 eventLocationName: ""
 eventLocationLink: "#"
-eventStreetAddress: "Coronel, J. Rodriguez 273"
+eventStreetAddress: "Mendoza"
 eventAddressLocality: "Mendoza"
 eventAddressLocalityRegion: "Mendoza"
 eventPostalCode: "5500"
@@ -101,46 +102,44 @@ eventPlaceCoordinates: "-32.897141846900354,-68.8533890247345"
 mapCenterCoordinates: "-32.897141846900354,-68.8533890247345"
 mapMobileCenterCoordinates: "-32.897141846900354,-68.8533890247345"
 
-# Venue Block
-venueBlockTitle: "UTN - Mendoza"
-venueBigImage: "auditorio.jpg"
-venueSmallImage1: "entrada.jpg"
-venueSmallImage2: "novaamerica-2.jpg"
+# # Venue Block
+# venueBlockTitle: "UTN - Mendoza"
+# venueBigImage: "auditorio.jpg"
+# venueSmallImage1: "entrada.jpg"
+# venueSmallImage2: "novaamerica-2.jpg"
 
-#venueSmallImage3: "venue_3.jpg"
-venueTitle: "Auditorio"
-venueFeatures: ["Buen ambiente para las conversaciones. "," Una buena acústica, aire acondicionado."]
+# #venueSmallImage3: "venue_3.jpg"
+# venueTitle: "Auditorio"
+# venueFeatures: ["Buen ambiente para las conversaciones. "," Una buena acústica, aire acondicionado."]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: ""
-twitterHashTag: "masconmdz"
+twitterHashTag: "yoAislado"
 twitterFeed: ""
 
-# Partners Block
-organizersTitle: ""
-# partnersTitle: "Para ser patrocinador, por favor, póngase en contacto con nosotros por correo electrónico masconmdz@gmail.com"
-partnersC4sponsorsButton: "Para ser patrocinador, por favor, póngase en contacto con nosotros por correo electrónico masconmdz@gmail.com"
+# # Partners Block
+# organizersTitle: ""
+# # partnersTitle: "Para ser patrocinador, por favor, póngase en contacto con nosotros por correo electrónico masconmdz@gmail.com"
+# partnersC4sponsorsButton: "Para ser patrocinador, por favor, póngase en contacto con nosotros por correo electrónico masconmdz@gmail.com"
 
-# Subscribe Block
-subscribeImage: "subscribe.jpg"
-subscribeTitle: "Mantenete al día con las noticias!"
-# subscribeAction: "#"
+# # Subscribe Block
+# subscribeImage: "subscribe.jpg"
+# subscribeTitle: "Mantenete al día con las noticias!"
+# # subscribeAction: "#"
 
 
 # Footer
 socialLinks:
- - {link: "https://twitter.com/masconmdz", icon: "twitter"}
- - {link: "https://www.facebook.com/masconmdz/", icon: "facebook"}
+ - {link: "https://www.facebook.com/Yo-Aislado-104862687863958", icon: "facebook"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "https://mas-con.github.io", text: "+Con Conference"}
-   - {link: "https://github.com/mas-con/code-conduct-mas-con", text: "Code of Conduct"}
+   - {link: "#", text: "GitHub"}
 
  -
-  title: "Contactos"
+  title: "Creador y Mantenedor"
   links:
 
-   - {link: "mailto:masconmdz@gmail.com", text: "masconmdz@gmail.com"}
+   - {link: "mailto:paolakatherine.ar@gmail.com", text: "paolakatherine.ar@gmail.com"}

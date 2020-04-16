@@ -2,7 +2,7 @@
   id: 0
   name: "Paola"
   surname: "Pacheco"
-  title: "Creador y Organizer"
+  title: "Creador y Mantenedor"
   thumbnailUrl: paola.jpg
   team: true
   ribbon:
@@ -12,31 +12,17 @@
     - {name: "github", link: "https://github.com/PKpacheco"}
     - {name: "site", link: "http://about.me/pkcpweb"}
 
--
-  id: 1
-  name: "Flor"
-  surname: "Zapata"
-  title: "Organizer"
-  thumbnailUrl: flozapata.jpg
-  team: true
-  ribbon:
-    # - {abbr: "GDG", title: "Google Developer Group"}
-  social:
-    - {name: "site", link: "https://about.me/florenciazapata"}
-    - {name: "twitter", link: "https://twitter.com/_flodolce"}
-    - {name: "github", link: "https://github.com/zapataFlorencia'"}
-
-
 # -
-#   id: 2
-#   name: "Florencia"
-#   surname: "Rosas"
+#   id: 1
+#   name: "Abc"
+#   surname: "Def"
 #   title: "Organizer"
-#   thumbnailUrl: florosas.jpg
+#   thumbnailUrl: abc.jpg
 #   team: true
 #   ribbon:
 #     # - {abbr: "GDG", title: "Google Developer Group"}
 #   social:
-#     # - {name: "google-plus", link: "https://google.com/+GabrieldeCastroSLima"}
-#     - {name: "site", link: "https://www.pixelsapiens.com"}
-#     - {name: "github", link: "https://github.com/flornrosas"}
+#     - {name: "site", link: "https://about.me/abc"}
+#     - {name: "twitter", link: "https://twitter.com/_flodolce"}
+#     - {name: "github", link: "https://github.com/zapataFlorencia'"}
+
