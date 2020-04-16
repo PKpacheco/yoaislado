@@ -76,14 +76,6 @@ rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Restaurantes | Comida"
 rockstarSpeakersButtonText: "Ver todos los Restaurantes"
 
-
-# Tweets Feed Block
-tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: ""
-twitterHashTag: "yoAislado"
-twitterFeed: ""
-
-
 # Footer
 socialLinks:
  - {link: "https://www.facebook.com/Yo-Aislado-104862687863958", icon: "facebook"}
@@ -91,7 +83,7 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "#", text: "GitHub"}
+   - {link: "https://github.com/PKpacheco/yoaislado", text: "GitHub"}
 
  -
   title: "Creador y Mantenedor"

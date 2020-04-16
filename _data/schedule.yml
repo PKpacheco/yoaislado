@@ -1,74 +1,28 @@
-#  -
-#    date: "2018-10-20"
-#    dateReadable: "20 octubre"
-#    tracks:
-#      - {title: "Auditorio", color: "#FFA500"}
-#      - {title: "Sala 1", color: "#90be4e"}
-#      - {title: "Sala 2", color: "#03a9f4"}
 
-#    timeslots:
-#       - {
-#          startTime: "09:00",
-#          endTime: "09:30",
-#          sessionIds: [001]
-#       }
-#       - {
-#          startTime: "09:40",
-#          endTime: "10:20",
-#          sessionIds: [006]
-#       }
-#       - {
-#           startTime: "10:30",
-#           endTime: "11:10",
-#           sessionIds: [007, 008, 009]
-#       }
-#       - {
-#           startTime: "11:20",
-#           endTime: "11:40",
-#           sessionIds: [002]
-#       }
-#       - {
-#           startTime: "11:50",
-#           endTime: "12:30",
-#           sessionIds: [010, 011, 012]
-#       }
-#       - {
-#           startTime: "12:40",
-#           endTime: "13:20",
-#           sessionIds: [013, 014, 015]
-#       }
-#       - {
-#           startTime: "13:30",
-#           endTime: "14:30",
-#           sessionIds: [003]
-#       }
-#       - {
-#           startTime: "14:40",
-#           endTime: "15:20",
-#           sessionIds: [016, 017, 018]
-#       }
-#       - {
-#           startTime: "15:30",
-#           endTime: "15:50",
-#           sessionIds: [019]
-#       }
-#       - {
-#           startTime: "16:00",
-#           endTime: "16:20",
-#           sessionIds: [004]
-#       }
-#       - {
-#           startTime: "16:30",
-#           endTime: "16:50",
-#           sessionIds: [020]
-#       }
-#       - {
-#           startTime: "17:00",
-#           endTime: "17:30",
-#           sessionIds: [021]
-#       }
-#       - {
-#           startTime: "17:30",
-#           endTime: "18:00",
-#           sessionIds: [005]
-#       }
+ -
+    id: 1
+    name: "Don"
+    surname: "Mario"
+    company: "Restaurante"
+    title: "Servicios de envio a domicicio, pedidos por el sitio"
+    bio: "Envios a la Casa"
+    thumbnailUrl: donmario.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Envios", title: "Envios", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
+    social:
+      - {name: "sitio", link: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
+ 
+  -
+     id: 2
+     name: "Sentite"
+     surname: "Listo"
+     company: "Comida Congelada"
+     title: "Envio de comida congelada a domicicio"
+     bio: "Viandas semanales que llegan a tu casa "
+     thumbnailUrl: sentitelisto.png
+     rockstar: true
+     ribbon:
+       - {abbr: "Viandas", title: "Viandas", url: "https://www.instagram.com/sentitelisto/"}
+     social:
+       - {name: "instagram", link: "https://www.instagram.com/sentitelisto/"}
