@@ -14,32 +14,15 @@
      - {name: "sitio", link: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
 
  -
-   id: 2
-   name: "Sentite "
-   surname: "Listo"
-   company: ""
-   title: ""
-   bio: "Enviamos comida congelada "
-   thumbnailUrl: sentitelisto.png
-   rockstar: true
-   ribbon:
-    - {abbr: "Envios", title: "Envios", url: "https://www.instagram.com/sentitelisto/"}
+    id: 2
+    name: "Sentite"
+    surname: "Listo"
+    company: "Comida Congelada"
+    title: "Envio de comida congelada a domicicio."
+    bio: "Envios a la Casa"
+    thumbnailUrl: sentitelisto.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Envios", title: "Envios", url: "https://www.instagram.com/sentitelisto/"}
     social:
-     - {name: "instagram", link: "https://www.instagram.com/sentitelisto/"}
-
- -
-   id: 3
-   name: "ABC  "
-   surname: "ABC"
-   company: "comapny"
-   title: "title"
-   bio: "Full-stack/fronten developer"
-   thumbnailUrl: matias.jpg
-   rockstar: true
-   ribbon:
-     - {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-   social:
-     - {name: "instagram", link: "https://plus.google.com/+aaa/"}
-     - {name: "facebook", link: "https://twitter.com/aaa"}
-     - {name: "site", link: "github.com/aaa"}
-
+      - {name: "instageam", link: "https://www.instagram.com/sentitelisto/"}
