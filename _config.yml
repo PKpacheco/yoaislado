@@ -53,14 +53,15 @@ navigationLinks:
 #  - {link: "#", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "black.png"
+heroImage: "fundo_escuro.png"
 heroTitle: "Yo Aislado | <typeout> "
 eventDate: "Mendoza"
 typeoutTextValues: '"", "Restaurantes", "Negocios ", "Donaciones ", "Servicios" ,"otros"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "https://bit.ly/#", text: "Queres sumar algo?"}
-#  - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "https://bit.ly/#", text: "Quiero ayudar compartiendo un negocio de Comida"}
+ - {link: "https://bit.ly/#", text: "Quiero ayudar compartiendo un lugar que recibe donaciones"}
+ - {link: "https://bit.ly/#", text: "Quiero ayudar compartiendo un negocio de servicio"}
 
 # About Block
 aboutTitle: "Conocé Yo Aislado"
