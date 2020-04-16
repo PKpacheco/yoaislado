@@ -38,7 +38,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/donacion/", text: "Donacion"}
  - {permalink: "/restaurantes/", text: "Restaurantes"}
- - {permalink: "/team/", text: "Los organizadores"}
+ - {permalink: "/servicios/", text: "Servicios"}
 
 
 # Hero Block
@@ -67,10 +67,7 @@ statisticBlock:
  - {count: "10", specialCharacter: "+", info: "Servicios", detail: "en tu casa"}
  - {count: "10", specialCharacter: "", info: "Locales", detail: "para donar y ayudar"}
 
-# Latest News Block
-latestNewsTitle: ""
-
-# Rockstar Speakers Block
+# Restaurant Block
 rockstarSpeakersImage: "restaurante.jpg"
 rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Restaurantes | Comida"
