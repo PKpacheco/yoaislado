@@ -20,14 +20,6 @@ permalink: "/blog/:title"
 # googleAnalyticsSiteUrl: "gdg-x.github.io"
 # siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
-# Organizer Info
-organizerName: "Los seres humanos que disfrutan de la tecnología"
-organizerAlternateName: "Los seres humanos que disfrutan de la tecnología"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "masconferencia@gmail.com"
-organizerLogo: "/img/seo/logo-square.png"
-organizerLink: "http://pkpacheco.github.io/yoaislado/"
-
 # Documents
 # c4pUrl: "https://bit.ly/dfua-c4p"
 c4sponsorsUrl: "mailto:masconmdz@gmail.com"
@@ -36,9 +28,9 @@ c4sponsorsUrl: "mailto:masconmdz@gmail.com"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/donacion/", text: "Donacion"}
  - {permalink: "/restaurantes/", text: "Restaurantes"}
  - {permalink: "/servicios/", text: "Servicios"}
+ - {permalink: "/donacion/", text: "Donacion"}
 
 
 # Hero Block
@@ -55,7 +47,7 @@ heroButtons:
 # About Block
 aboutTitle: "Conocé Yo Aislado"
 aboutBlock:
- - {title: "Restaurantes", image: "food.png", text: "Restaurantes y Servicios de Comida." }
+ - {permalink: "/restaurantes/", title: "Restaurantes", image: "food.png", text: "Restaurantes y Servicios de Comida." }
  - {title: "Servicios ", image: "services.png", text: "Servicios en General." }
  - {title: "Donaciones", image: "donacion.jpg", text: "Donaciones." }
 
