@@ -10,10 +10,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "+Con"
-email: "masconmdz@gmail.com"
-description: "Evento para unirse al desarrollo de la comunidad Argentina."
-baseurl: "/argentina2018"
+title: "Yo Aislado"
+email: "paolakatherine.ar@gmail.com"
+description: "Plataforma para agrupar pequeños negocios en Mendoza."
+baseurl: "/"
 url: "http://pkpacheco.github.io/yoaislado/"
 permalink: "/blog/:title"
 # googleAnalyticsTrackingId: "UA-43643469-5"
@@ -25,7 +25,7 @@ organizerName: "Los seres humanos que disfrutan de la tecnología"
 organizerAlternateName: "Los seres humanos que disfrutan de la tecnología"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
 organizerEmail: "masconferencia@gmail.com"
-organizerLogo: "/img/seo/organizer-logo.png"
+organizerLogo: "/img/seo/logo-square.png"
 organizerLink: "http://pkpacheco.github.io/yoaislado/"
 
 # Head
