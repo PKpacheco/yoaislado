@@ -60,10 +60,10 @@ statisticBlock:
  - {count: "10", specialCharacter: "", info: "Locales", detail: "para donar y ayudar"}
 
 # Restaurant Block
-rockstarSpeakersImage: "restaurante.jpg"
-rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Restaurantes | Comida"
-rockstarSpeakersButtonText: "Ver todos los Restaurantes"
+rockstarRestauranteImage: "restaurante.jpg"
+rockstarRestauranteCount: 4
+rockstarRestauranteTitle: "Restaurantes | Comida"
+rockstarRestauranteButtonText: "Ver todos los Restaurantes"
 
 # Footer
 socialLinks:
