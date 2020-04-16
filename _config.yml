@@ -28,13 +28,6 @@ organizerEmail: "masconferencia@gmail.com"
 organizerLogo: "/img/seo/logo-square.png"
 organizerLink: "http://pkpacheco.github.io/yoaislado/"
 
-# # Head
-# metaKeywords: "event, mascon, mendoza, programacion, programming, design, argentina, "
-# # twitterAccount: "@masconmdz"
-# # socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-# socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-# socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
-
 # Documents
 # c4pUrl: "https://bit.ly/dfua-c4p"
 c4sponsorsUrl: "mailto:masconmdz@gmail.com"
@@ -43,14 +36,10 @@ c4sponsorsUrl: "mailto:masconmdz@gmail.com"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/schedule/", text: "Programación"}
+ - {permalink: "/donacion/", text: "Donacion"}
  - {permalink: "/restaurantes/", text: "Restaurantes"}
  - {permalink: "/team/", text: "Los organizadores"}
 
-# bottomNavigationLinks:
-#  - {link: "#", text: "Become a speaker"}
-# rightNavigationButtons:
-#  - {link: "#", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "fundo_escuro.png"
@@ -87,47 +76,12 @@ rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Restaurantes | Comida"
 rockstarSpeakersButtonText: "Ver todos los Restaurantes"
 
-# # Location Block
-# locationBlockTitle: "Mendoza"
-# eventLocationName: ""
-# eventLocationLink: "#"
-# eventStreetAddress: "Mendoza"
-# eventAddressLocality: "Mendoza"
-# eventAddressLocalityRegion: "Mendoza"
-# eventPostalCode: "5500"
-# eventAddressCountry: "Argentina"
-# eventStartTime: "2018-10-20T10:00"
-# eventDoorTime: "09:00"
-# eventEndTime: "2018-10-20T18:00"
-# eventPlaceCoordinates: "-32.897141846900354,-68.8533890247345"
-# mapCenterCoordinates: "-32.897141846900354,-68.8533890247345"
-# mapMobileCenterCoordinates: "-32.897141846900354,-68.8533890247345"
-
-# # Venue Block
-# venueBlockTitle: "UTN - Mendoza"
-# venueBigImage: "auditorio.jpg"
-# venueSmallImage1: "entrada.jpg"
-# venueSmallImage2: "novaamerica-2.jpg"
-
-# #venueSmallImage3: "venue_3.jpg"
-# venueTitle: "Auditorio"
-# venueFeatures: ["Buen ambiente para las conversaciones. "," Una buena acústica, aire acondicionado."]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: ""
 twitterHashTag: "yoAislado"
 twitterFeed: ""
-
-# # Partners Block
-# organizersTitle: ""
-# # partnersTitle: "Para ser patrocinador, por favor, póngase en contacto con nosotros por correo electrónico masconmdz@gmail.com"
-# partnersC4sponsorsButton: "Para ser patrocinador, por favor, póngase en contacto con nosotros por correo electrónico masconmdz@gmail.com"
-
-# # Subscribe Block
-# subscribeImage: "subscribe.jpg"
-# subscribeTitle: "Mantenete al día con las noticias!"
-# # subscribeAction: "#"
 
 
 # Footer
