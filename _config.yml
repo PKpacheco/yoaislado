@@ -59,9 +59,9 @@ eventDate: "Mendoza"
 typeoutTextValues: '"", "Restaurantes", "Negocios ", "Donaciones ", "Servicios" ,"otros"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "https://bit.ly/#", text: "Quiero ayudar compartiendo un negocio de Comida"}
- - {link: "https://bit.ly/#", text: "Quiero ayudar compartiendo un lugar que recibe donaciones"}
- - {link: "https://bit.ly/#", text: "Quiero ayudar compartiendo un negocio de servicio"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un negocio de Comida"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un lugar que recibe donaciones"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un negocio de servicio"}
 
 # About Block
 aboutTitle: "Conocé Yo Aislado"
