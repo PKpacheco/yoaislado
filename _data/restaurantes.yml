@@ -9,8 +9,7 @@
    thumbnailUrl: donmario.png
    rockstar: true
    ribbon:
-     - {abbr: "Envios", title: "Envios", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
-     - {name: "sitio", link: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
+     - {abbr: "Envios | Sitio", title: "title", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
 
  -
     id: 2
@@ -22,5 +21,4 @@
     thumbnailUrl: sentitelisto.png
     rockstar: true
     ribbon:
-      - {abbr: "Viandas", title: "Viandas"}
-      - {abbr: "Instagram", title: "Instagram", url: "https://www.instagram.com/sentitelisto/"}
+      - {abbr: "Viandas | Instagram", title: "Viandas | Instagram", url: "https://www.instagram.com/sentitelisto/"}
