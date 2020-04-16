@@ -44,7 +44,7 @@ c4sponsorsUrl: "mailto:masconmdz@gmail.com"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/schedule/", text: "Programación"}
- - {permalink: "/speakers/", text: "Restaurantes"}
+ - {permalink: "/restaurantes/", text: "Restaurantes"}
  - {permalink: "/team/", text: "Los organizadores"}
 
 # bottomNavigationLinks:

@@ -9,9 +9,9 @@
    thumbnailUrl: donmario.png
    rockstar: true
    ribbon:
-     - {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
+     - {abbr: "Envios", title: "Envios", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
    social:
-     - {name: "sitio", link: "#"}
+     - {name: "sitio", link: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
 
  -
    id: 2
@@ -19,14 +19,13 @@
    surname: "Listo"
    company: ""
    title: ""
-   bio: "Test Automation Engineer "
-   thumbnailUrl: javier.png
+   bio: "Enviamos comida congelada "
+   thumbnailUrl: sentitelisto.png
    rockstar: true
    ribbon:
-     #- {abbr: "GDG", title: "Google Developer Organizer", url: "https://developers.google.com/groups/chapter/gdgduquedecaxias/"}
-   social:
-     - {name: "site", link: "https://www.javiercaballero.info/#contact"}
-     - {name: "github", link: "https://github.com/caballerojavier13"}
+    - {abbr: "Envios", title: "Envios", url: "https://www.instagram.com/sentitelisto/"}
+    social:
+     - {name: "instagram", link: "https://www.instagram.com/sentitelisto/"}
 
  -
    id: 3
