@@ -29,8 +29,8 @@ c4sponsorsUrl: "mailto:masconmdz@gmail.com"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/restaurantes/", text: "Restaurantes"}
- - {permalink: "/servicios/", text: "Servicios"}
- - {permalink: "/donacion/", text: "Donacion"}
+ - {permalink: "/services/", text: "Servicios"}
+ - {permalink: "/donations/", text: "Donacion"}
 
 
 # Hero Block
@@ -47,7 +47,7 @@ heroButtons:
 # About Block
 aboutTitle: "Conocé Yo Aislado"
 aboutBlock:
- - {permalink: "/restaurantes/", title: "Restaurantes", image: "food.png", text: "Restaurantes y Servicios de Comida." }
+ - {title: "Restaurantes", image: "food.png", text: "Restaurantes y Servicios de Comida." }
  - {title: "Servicios ", image: "services.png", text: "Servicios en General." }
  - {title: "Donaciones", image: "donacion.jpg", text: "Donaciones." }
 
