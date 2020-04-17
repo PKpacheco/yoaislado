@@ -22,7 +22,7 @@ permalink: "/blog/:title"
 
 # Documents
 # c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "mailto:masconmdz@gmail.com"
+# c4sponsorsUrl: "mailto:masconmdz@gmail.com"
 
 
 # Navigation
@@ -34,15 +34,15 @@ navigationLinks:
 
 
 # Hero Block
-heroImage: "fundo_escuro.png"
+heroImage: "grey.png"
 heroTitle: "Yo Aislado | <typeout> "
 eventDate: "Mendoza"
 typeoutTextValues: '"", "Restaurantes", "Negocios ", "Donaciones ", "Servicios" ,"otros"'
-typeoutFallback: "Season"
+typeoutFallback: "Restaurantes, Donaciones y Servicios"
 heroButtons:
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un negocio de Comida"}
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLScUaohsNWJvqvhO_fpl0tgcsRDiWMQRti9zOOXB6ps3d1dnSQ/viewform", text: "Quiero ayudar compartiendo un lugar que recibe donaciones"}
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdOq32lk6XLzSU-LJUg7pRVbeZaa32luiy4JGwvEPgFPU3Bcg/viewform", text: "Quiero ayudar compartiendo un negocio de servicio"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Compartir restaurantes | comida "}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLScUaohsNWJvqvhO_fpl0tgcsRDiWMQRti9zOOXB6ps3d1dnSQ/viewform", text: "Compartir un lugar que recibe donaciones"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdOq32lk6XLzSU-LJUg7pRVbeZaa32luiy4JGwvEPgFPU3Bcg/viewform", text: "Compartir un negocio de servicios"}
 
 # About Block
 aboutTitle: "Conocé Yo Aislado"
