@@ -48,8 +48,8 @@ heroButtons:
 aboutTitle: "Conocé Yo Aislado"
 aboutBlock:
  - {title: "Restaurantes", image: "food.png", permalink: "/restaurantes/", text: "Restaurantes y Servicios de Comida." }
- - {title: "Servicios ", image: "services.png", text: "Servicios en General." }
- - {title: "Donaciones", image: "donacion.jpg", text: "Donaciones." }
+ - {title: "Servicios ", image: "services.png", permalink: "/servicios/", text: "Servicios en General." }
+ - {title: "Donaciones", image: "donacion.jpg", permalink: "/donaciones/", text: "Donaciones." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
