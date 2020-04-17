@@ -47,7 +47,7 @@ heroButtons:
 # About Block
 aboutTitle: "Conocé Yo Aislado"
 aboutBlock:
- - {title: "Restaurantes", image: "food.png", text: "Restaurantes y Servicios de Comida." }
+ - {title: "Restaurantes", image: "food.png", {permalink: "/restaurantes/", text: "Restaurantes y Servicios de Comida." }
  - {title: "Servicios ", image: "services.png", text: "Servicios en General." }
  - {title: "Donaciones", image: "donacion.jpg", text: "Donaciones." }
 

@@ -26,6 +26,13 @@ layout: compress
     	{% include restaurantes-modals.html %} 
     {% endif %} 
 
+    {% if page.modal != null %} 
+    	{% include servicios-modals.html %} 
+    {% endif %} 
+
+    {% if page.modal != null %} 
+    	{% include donaciones-modals.html %} 
+    {% endif %} 
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
@@ -38,7 +45,7 @@ layout: compress
     }
     </script>
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
+    <!-- {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
     <script>
         if ($(window).width() > 767) {
             document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyCriYARRzp4b_ExbwvLNyuknaR-uNnulm8"><\/script>')
@@ -49,23 +56,23 @@ layout: compress
         <script type="text/javascript">
             var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
         </script>
-    {% endif %} 
-    <script>
+    {% endif %}  -->
+    <!-- <script>
         Waves.displayEffect();
         {% if page.permalink == '/' %}
-            if ($(window).width() > 767) {
-                var googleMaps = 'index',
-                    eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }}),
-                    centerMap = new google.maps.LatLng({{ site.mapCenterCoordinates | replace:' ','' }}),
-                    mobileCenterMap = new google.maps.LatLng({{ site.mapMobileCenterCoordinates | replace:' ','' }}),
-                    icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-            } else {
-               var staticGoogleMaps = true,
-                eventPlaceCoordinates = '{{ site.eventPlaceCoordinates | replace:' ','' }}',
-                centerMapCoordinates = '{{ site.mapCenterCoordinates | replace:' ','' }}',
-                mobileCenterMapCoordinates = '{{ site.mapMobileCenterCoordinates | replace:' ','' }}',
-                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
-            }
+            // if ($(window).width() > 767) {
+            //     var googleMaps = 'index',
+            //         eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }}),
+            //         centerMap = new google.maps.LatLng({{ site.mapCenterCoordinates | replace:' ','' }}),
+            //         mobileCenterMap = new google.maps.LatLng({{ site.mapMobileCenterCoordinates | replace:' ','' }}),
+            //         icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+            // } else {
+            //    var staticGoogleMaps = true,
+            //     eventPlaceCoordinates = '{{ site.eventPlaceCoordinates | replace:' ','' }}',
+            //     centerMapCoordinates = '{{ site.mapCenterCoordinates | replace:' ','' }}',
+            //     mobileCenterMapCoordinates = '{{ site.mapMobileCenterCoordinates | replace:' ','' }}',
+            //     icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
+            // }
             var twitterFeedUrl = '{{ site.twitterFeed }}';
             $(document).ready(function () {
                 $(function () {
@@ -78,13 +85,13 @@ layout: compress
                         });
                     }
                 });
-                var rockstarRestaurantes = [
-                    {% for restaurante in site.data.restaurantes %}
-                        {% if restaurante.rockstar %}
-                        {name: "{{ restaurante.name }} {{ restaurante.surname }}", company: "{{ restaurante.company }}", image: "{{ site.baseurl | append: '/img/restaurant/' | append: restaurante.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
-                        {% endif %}
-                    {% endfor %}
-                ];
+                // var rockstarRestaurantes = [
+                //     {% for restaurante in site.data.restaurantes %}
+                //         {% if restaurante.rockstar %}
+                //         {name: "{{ restaurante.name }} {{ restaurante.surname }}", company: "{{ restaurante.company }}", image: "{{ site.baseurl | append: '/img/restaurant/' | append: restaurante.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                //         {% endif %}
+                //     {% endfor %}
+                // ];
                 rockstarRestaurantes.sort(function() {return 0.5 - Math.random()});
                 if(rockstarRestaurantes.length > 0) {
                     var animationDelay = 1500,
@@ -121,7 +128,7 @@ layout: compress
                 icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
             }
             
-        {% endif %} 
+        {% endif %}  -->
     </script>
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/schedule/' %}
