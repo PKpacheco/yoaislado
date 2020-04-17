@@ -1,25 +1,11 @@
  -
   id: 1
-  name: "Don"
-  surname: "Mario"
-  company: "Restaurante"
-  title: "Servicios de envio a domicicio, pedidos por el sitio"
-  bio: "Envios a la Casa"
-  thumbnailUrl: donmario.png
+  name: "Comedor Arco"
+  surname: "Iris"
+  company: "Comedor"
+  title: "Comedor niños"
+  bio: "Somos una instituicion con 30 niños. Aceptamos donaciones de comida, alimentos no perecederos. Retiramos a domicilio o vos podes traer..."
+  thumbnailUrl: donate.png
   rockstar: true
   ribbon:
-    - {abbr: "Envios", title: "Envios", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
-    - {name: "sitio", link: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
-
--
-   id: 2
-   name: "Sentite"
-   surname: "Listo"
-   company: "Comida Congelada"
-   title: "Envio de comida congelada a domicicio"
-   bio: "Viandas semanales que llegan a tu casa "
-   thumbnailUrl: sentitelisto.png
-   rockstar: true
-   ribbon:
-     - {abbr: "Viandas", title: "Viandas"}
-     - {abbr: "Instagram", title: "Instagram", url: "https://www.instagram.com/sentitelisto/"}
+    - {abbr: "Donaciones", title: "Donaciones | Teléfono", url: "htpps://google.com"}

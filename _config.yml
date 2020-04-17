@@ -16,6 +16,8 @@ description: "Plataforma para agrupar pequeños negocios en Mendoza."
 baseurl: "/"
 url: "http://pkpacheco.github.io/yoaislado/"
 permalink: "/blog/:title"
+organizerLogo: "/img/seo/logo.psd"
+
 # googleAnalyticsTrackingId: "UA-43643469-5"
 # googleAnalyticsSiteUrl: "gdg-x.github.io"
 # siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
@@ -42,7 +44,7 @@ typeoutFallback: "Season"
 heroButtons:
  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un negocio de Comida"}
  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un lugar que recibe donaciones"}
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un negocio de servicio"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdOq32lk6XLzSU-LJUg7pRVbeZaa32luiy4JGwvEPgFPU3Bcg/viewform", text: "Quiero ayudar compartiendo un negocio de servicio"}
 
 # About Block
 aboutTitle: "Conocé Yo Aislado"

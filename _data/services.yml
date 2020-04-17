@@ -1,26 +1,51 @@
 
- -
-   id: 1
-   name: "Don"
-   surname: "Mario"
-   company: "Restaurante"
-   title: "Servicios de envio a domicicio, pedidos por el sitio"
-   bio: "Envios a la Casa"
-   thumbnailUrl: donmario.png
-   rockstar: true
-   ribbon:
-     - {abbr: "Envios", title: "Envios", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
-     - {name: "sitio", link: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
+-
+  id: 1
+  name: "Tintureria"
+  surname: "ABC"
+  company: ""
+  title: "Servicios de retiro a domicicio, llamar por whatsapp"
+  bio: "Retiramos su pedido en la casa. tel: 123 456 789"
+  thumbnailUrl: laundry.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "Retiro | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
 
- -
-    id: 2
-    name: "Sentite"
-    surname: "Listo"
-    company: "Comida Congelada"
-    title: "Envio de comida congelada a domicicio"
-    bio: "Viandas semanales que llegan a tu casa "
-    thumbnailUrl: sentitelisto.png
-    rockstar: true
-    ribbon:
-      - {abbr: "Viandas", title: "Viandas"}
-      - {abbr: "Instagram", title: "Instagram", url: "https://www.instagram.com/sentitelisto/"}
+-
+  id: 2
+  name: "Farmacia Del"
+  surname: "Centro"
+  company: "Farmacia "
+  title: "Envio de medicamentos  a domicicio"
+  bio: ""
+  thumbnailUrl: pharmacy.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
+    - {abbr: "Envios | Sitio", title: "Retiro | Teléfono", url: "htpps://google.com"}
+
+-
+  id: 3
+  name: "Mayorista en"
+  surname: "Country"
+  company: "Mercado "
+  title: "Envio a domicicio"
+  bio: ""
+  thumbnailUrl: market.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
+    - {abbr: "Envios | Sitio", title: "Retiro | Teléfono", url: "htpps://google.com"}
+
+- 
+  id: 4
+  name: "Mercado "
+  surname: "ABC"
+  company: "Mercado "
+  title: "Envio a domicicio"
+  bio: ""
+  thumbnailUrl: market2.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
+    - {abbr: "Envios | Sitio", title: "Retiro | Teléfono", url: "htpps://google.com"}
