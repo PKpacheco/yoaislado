@@ -1,0 +1,78 @@
+<!-- Begin servicios Modals -->
+<div class="modals" class="modals">
+	{% for servicio in site.data.servicios %}
+		{% if page.modal == "all" or (page.modal == 'team' and (servicio.team != null or servicio.subTeam != null)) %}
+		<div class="modal fade text-left people-modal" id="servicioDetail-{{ servicio.id }}" tabindex="-1" role="dialog" aria-labelledby="servicioDetailLabel-{{ servicio.id }}" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="close">
+							<svg class="icon icon-cross" viewBox="0 0 32 32">
+								<!-- <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use> -->
+							</svg>
+							<div class="close-mask" data-dismiss="modal"></div>
+						</div>
+						{% if site.showSessions %}
+							{% for session in site.data.sessions %}
+								{% for session_servicio in session.servicios %}
+									{% if session_servicio == servicio.id %}
+										<h4>{{ session.title }}</h4>
+										{% if session.language != null %}
+										<span class="theme-metadata"><span class="caption">Language: </span>{{ session.language }}</span>
+										{% endif %}
+										{% if session.complexity != null %}
+										<span class="theme-metadata"><span class="caption">Complexity: </span>{{ session.complexity }}</span>
+										{% endif %}
+										{% if session.video %}
+										<div class="theme-video embed-responsive embed-responsive-16by9">
+										    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
+										</div>
+										{% endif %}
+										<p class="theme-description">{{ session.description }}</p>
+										{% if session.presentation %}
+										<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
+										{% endif %}
+									{% endif %}
+								{% endfor %}		
+							{% endfor %}
+							<hr>
+						{% endif %}
+						<div class="people-details">
+							<div class="row">
+								<div class="col-md-2 col-sm-2">
+									<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/restaurant/' | append: servicio.thumbnailUrl }})"></div>
+								</div>
+								<div class="col-md-10 col-sm-10 details">
+									<p class="name">{{ servicio.name }} {{ servicio.surname }}
+										<span class="position">{{ servicio.title }}, {{ servicio.company }}</span>
+									</p>
+									{% if servicio.ribbon != null %}
+									<div class="modal-ribbon-wrapper">
+			                            {% for ribbon in servicio.ribbon %}
+			                               <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>   
+			                            {% endfor %}
+			                        </div>
+			                        {% endif %}
+									<p class="about">{{ servicio.bio }}</p>
+									<ul class="social">
+										{% for social in servicio.social %}
+											<li>
+												<a href="{{ social["link"] }}" target="_blank">
+													<svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+														<!-- <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use> -->
+													</svg>
+												</a>
+											</li>
+										{% endfor %}
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}
+</div>
+<!-- End servicios Modals -->
