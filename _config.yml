@@ -59,11 +59,6 @@ statisticBlock:
  - {count: "10", specialCharacter: "+", info: "Servicios", detail: "en tu casa"}
  - {count: "10", specialCharacter: "", info: "Locales", detail: "para donar y ayudar"}
 
-# Restaurant Block
-rockstarRestauranteImage: "restaurante.jpg"
-rockstarRestauranteCount: 4
-rockstarRestauranteTitle: "Restaurantes | Comida"
-rockstarRestauranteButtonText: "Ver todos los Restaurantes"
 
 # Footer
 socialLinks:
