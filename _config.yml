@@ -16,8 +16,6 @@ description: "Plataforma para agrupar pequeños negocios en Mendoza."
 baseurl: "/"
 url: "http://pkpacheco.github.io/yoaislado/"
 permalink: "/blog/:title"
-organizerLogo: "/img/seo/logo.psd"
-
 # googleAnalyticsTrackingId: "UA-43643469-5"
 # googleAnalyticsSiteUrl: "gdg-x.github.io"
 # siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
@@ -32,7 +30,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/restaurantes/", text: "Restaurantes"}
  - {permalink: "/servicios/", text: "Servicios"}
- - {permalink: "/donaciones/", text: "Donacion"}
+ - {permalink: "/donaciones/", text: "Donaciones"}
 
 
 # Hero Block
@@ -43,7 +41,7 @@ typeoutTextValues: '"", "Restaurantes", "Negocios ", "Donaciones ", "Servicios" 
 typeoutFallback: "Season"
 heroButtons:
  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un negocio de Comida"}
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Quiero ayudar compartiendo un lugar que recibe donaciones"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLScUaohsNWJvqvhO_fpl0tgcsRDiWMQRti9zOOXB6ps3d1dnSQ/viewform", text: "Quiero ayudar compartiendo un lugar que recibe donaciones"}
  - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdOq32lk6XLzSU-LJUg7pRVbeZaa32luiy4JGwvEPgFPU3Bcg/viewform", text: "Quiero ayudar compartiendo un negocio de servicio"}
 
 # About Block
