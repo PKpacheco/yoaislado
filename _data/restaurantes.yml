@@ -22,3 +22,28 @@
     rockstar: true
     ribbon:
       - {abbr: "Viandas | Instagram", title: "Viandas | Instagram", url: "https://www.instagram.com/sentitelisto/"}
+
+ -
+    id: 3
+    name: "Wanka"
+    surname: "Saludable"
+    company: "Delivery saludable"
+    title: "Envio de comida saludable a domicicio"
+    bio: " "
+    thumbnailUrl: wanka.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Saludable | Instagram", title: "Saludable | Instagram", url: "https://www.instagram.com/wankasaludable/"}
+
+ -
+    id: 4
+    name: "Petit"
+    surname: "Patisserie"
+    company: "Delivery de desayunos y pasteleria"
+    title: "Delivery de desayunos y pasteleria"
+    bio: " "
+    thumbnailUrl: petit_patisserie.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Pasteleria | Whatsapp", title: "Pasteleria | Whatsapp", url: "https;//wa.me/5492612344300/"}
+      - {abbr: "Pasteleria | Instagram", title: "Pasteleria | Instagram", url: "https://www.instagram.com/petit.patisserie.mdz/?igshid=1ldwg65g44vec"}
