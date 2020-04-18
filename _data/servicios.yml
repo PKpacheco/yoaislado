@@ -1,28 +1,27 @@
 
--
-  id: 1
-  name: "Tintureria"
-  surname: "ABC"
-  company: ""
-  title: "Servicios de retiro a domicicio, llamar por whatsapp"
-  bio: "Retiramos su pedido en la casa. tel: 123 456 789"
-  thumbnailUrl: laundry.jpg
-  rockstar: true
-  ribbon:
-    - {abbr: "Retiro | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
+# -
+#   id: 1
+#   name: "Tintureria"
+#   surname: "ABC"
+#   company: ""
+#   title: "Servicios de retiro a domicicio, llamar por whatsapp"
+#   bio: "Retiramos su pedido en la casa. tel: 123 456 789"
+#   thumbnailUrl: laundry.jpg
+#   rockstar: true
+#   ribbon:
+#     - {abbr: "Retiro | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
 
 -
   id: 2
   name: "Farmacia Del"
-  surname: "Centro"
+  surname: "Plata"
   company: "Farmacia "
-  title: "Envio de medicamentos  a domicicio"
+  title: "Envio de medicamentos a domicicio"
   bio: ""
-  thumbnailUrl: pharmacy.jpg
+  thumbnailUrl: farmacia_del_plata.png
   rockstar: true
   ribbon:
-    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
-    - {abbr: "Envios | Sitio", title: "Retiro | Teléfono", url: "htpps://google.com"}
+    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "tel:+54 9 261 325-6501"}
 
 -
   id: 3
@@ -31,11 +30,10 @@
   company: "Mercado "
   title: "Envio a domicicio"
   bio: ""
-  thumbnailUrl: market.png
+  thumbnailUrl: mayorista_en_country.png
   rockstar: true
   ribbon:
-    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
-    - {abbr: "Envios | Sitio", title: "Retiro | Teléfono", url: "htpps://google.com"}
+    - {abbr: "Envios | Sitio", title: "Sitio | Sitio", url: "https://mayoristaencountry.com/"}
 
 - 
   id: 4
