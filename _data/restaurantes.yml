@@ -9,7 +9,7 @@
    thumbnailUrl: donmario.png
    rockstar: true
    ribbon:
-     - {abbr: "Envios | Sitio", title: "Envios | Sitio", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
+     - {abbr: "Envios | Sitio", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
 
  -
     id: 2

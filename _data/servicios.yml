@@ -21,7 +21,7 @@
   thumbnailUrl: farmacia_del_plata.png
   rockstar: true
   ribbon:
-    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "tel:+54 9 261 325-6501"}
+    - {abbr: "Envios | Whatsapp", title: "Envios | Whatsapp", url: "https://wa.me/5492613256501/"}
 
 -
   id: 3
