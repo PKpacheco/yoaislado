@@ -1,6 +1,5 @@
 # Plugins
-Plugins:
-- jekyll-sitemap
+Plugins:[jekyll-sitemap, jekyll-paginate-v2] 
 safe: false
 
 # Build Settings
@@ -24,6 +23,15 @@ permalink: "/blog/:title"
 # c4pUrl: "https://bit.ly/dfua-c4p"
 # c4sponsorsUrl: "mailto:masconmdz@gmail.com"
 
+# Pagination (using jekyll-paginate-v2)
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title_suffix: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Navigation
 navigationLinks:
