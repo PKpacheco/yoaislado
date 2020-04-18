@@ -45,5 +45,5 @@
   thumbnailUrl: market2.jpg
   rockstar: true
   ribbon:
-    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
+    - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "https://wa.me/1234567890/"}
     - {abbr: "Envios | Sitio", title: "Retiro | Teléfono", url: "htpps://google.com"}
