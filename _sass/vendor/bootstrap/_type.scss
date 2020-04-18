@@ -61,6 +61,10 @@ p {
 
 p.big {
   line-height: 1.8;
+  font-size: $base-font-size * 2;
+  font-weight: $light;
+  margin-bottom: 15px;
+
 }
 
 .lead {
