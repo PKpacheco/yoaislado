@@ -21,8 +21,7 @@
   thumbnailUrl: farmacia_del_plata.png
   rockstar: true
   ribbon:
-    - {abbr: "Envios | Whatsapp", url: "https://wa.me/5492613256501/"}
-  tags: [capital, guaymallén]
+    - {abbr: "Envios | Whatsapp", title: "Envios | Whatsapp", url: "https://wa.me/5492613256501/"}
 
 -
   id: 3
