@@ -9,7 +9,7 @@
    thumbnailUrl: donmario.png
    rockstar: true
    ribbon:
-     - {abbr: "Envios | Sitio", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
+     - {abbr: "Envios | Sitio", title: "Envios | Sitio", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
 
  -
     id: 2
@@ -47,3 +47,31 @@
     ribbon:
       - {abbr: "Pasteleria | Whatsapp", title: "Pasteleria | Whatsapp", url: "https://wa.me/5492612344300/"}
       - {abbr: "Pasteleria | Instagram", title: "Pasteleria | Instagram", url: "https://www.instagram.com/petit.patisserie.mdz/?igshid=1ldwg65g44vec"}
+
+ -
+    id: 5
+    name: "The Beer"
+    surname: "Club"
+    company: "Descubrí nuestro universo cervecero"
+    title: "Delivery de pizzas, cervezas, burguer.."
+    bio: " "
+    thumbnailUrl: the_beer_club_chacras.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Beer | Whatsapp", title: "Beer | Whatsapp", url: "https://wa.me/5492616509339/"}
+      - {abbr: "Beer | Instagram", title: "Beer | Instagram", url: "https://www.instagram.com/thebeerclubarg/"}
+
+ -
+    id: 6
+    name: "Yoko"
+    surname: "Sushi"
+    company: "Delivery - Take Away - Restó"
+    title: "Delivery - Take Away - Restó"
+    bio: " "
+    thumbnailUrl: yoko_sushi.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Sushi | Whatsapp", title: "Sushi | Whatsapp", url: "https://wa.me/5492615686065/"}
+      - {abbr: "Sushi | Instagram", title: "Sushi | Instagram", url: "https://www.instagram.com/yokosushiarg/?igshid=1qmgy5v0ksjyi"}
+
+ 
