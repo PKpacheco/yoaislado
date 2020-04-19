@@ -12,7 +12,7 @@
                                 {% if restaurante.ribbon != null %}
                                 <ul class="ribbon-wrapper">
                                     {% for ribbon in restaurante.ribbon %}
-                                    <li class="{{ ribbon["abbr"] | downcase }}">
+                                    <li class="{{ ribbon["title"] | downcase }}">
                                         <!-- <p class="ribbon abbr">{{ ribbon["abbr"] }}</p> -->
                                         <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                                     </li>
@@ -49,26 +49,6 @@
                     </div>
                 </div>
                 {% endfor %}
-
-                {% if paginator.total_pages > 1 %}
-                <div class="row">
-                    <div class="pagination">
-                        {% if paginator.previous_page %}
-                        <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-                        {% else %}
-                        <span class="previous">Previous</span>
-                        {% endif %}
-                        <span class="page-number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-                        {% if paginator.next_page %}
-                        <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-                        {% else %}
-                        <span class="next ">Next</span>
-                        {% endif %}
-                    </div>
-                </div>
-                {% endif %}
-
-
             </div> 
         </div>
     </div>
