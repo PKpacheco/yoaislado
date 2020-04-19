@@ -11,9 +11,5 @@ pagination:
 ---
 
 {% include top-section.html %}
+{% include restaurant-list.html %}
 
-{% if site.showSessions %}
-    {% include restaurant-list.html %}
-{% else %}
-    {% include restaurant-list-2.html %}
-{% endif %}
