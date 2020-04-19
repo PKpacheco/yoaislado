@@ -4,8 +4,8 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
 
-paginate: 5
-paginate_path: "/page/:num"
+# paginate: 5
+# paginate_path: "/page/:num"
 
 safe: false
 
@@ -21,7 +21,7 @@ email: "paolakatherine.ar@gmail.com"
 description: "Plataforma para agrupar pequeños negocios en Mendoza."
 baseurl: "/"
 url: "http://pkpacheco.github.io/yoaislado/"
-permalink: "/blog/:title"
+# permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-163890575-1"
 # googleAnalyticsSiteUrl: "gdg-x.github.io"
 # siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
