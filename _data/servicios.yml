@@ -36,15 +36,14 @@
     - {abbr: "Envios | Sitio", title: "Envios | Sitio", url: "https://mayoristaencountry.com/"}
     - {abbr: "Envios | Instagram", title: "Envios | Instagram", url: "https://www.instagram.com/mayoristaencountry/?igshid=1dym4u528ento"}
 
-# - 
-#   id: 4
-#   name: "Mercado "
-#   surname: "ABC"
-#   company: "Mercado "
-#   title: "Envio a domicicio"
-#   bio: ""
-#   thumbnailUrl: market2.jpg
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Envios | Whatsapp", title: "Retiro | Whatsapp", url: "https://wa.me/1234567890/"}
-#     - {abbr: "Envios | Sitio", title: "Retiro | Teléfono", url: "htpps://google.com"}
+- 
+  id: 4
+  name: "Datec "
+  surname: "Srl"
+  company: "Servicios Informáticos "
+  title: "Todo lo que necesitas en informatica"
+  bio: "Podes realizar pedidos y Cotizaciones, Informáticos e Comunicaciones por este medio, o  enviando correo a juancarlos@datec.com.ar , jorgea@datec.com.ar. A la brevedad contestaremos!!!!!"
+  thumbnailUrl: datatec.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "Envios | Facebook", title: "Envios | Facebook", url: "https://www.facebook.com/datec.srl"}
