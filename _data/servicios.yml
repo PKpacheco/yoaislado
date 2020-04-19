@@ -43,7 +43,7 @@
   company: "Servicios Informáticos "
   title: "Todo lo que necesitas en informatica"
   bio: "Podes realizar pedidos y Cotizaciones, Informáticos e Comunicaciones por este medio, o  enviando correo a juancarlos@datec.com.ar , jorgea@datec.com.ar. A la brevedad contestaremos!!!!!"
-  thumbnailUrl: datatec.jpg
+  thumbnailUrl: datatec.png
   rockstar: true
   ribbon:
     - {abbr: "Envios | Facebook", title: "Envios | Facebook", url: "https://www.facebook.com/datec.srl"}
