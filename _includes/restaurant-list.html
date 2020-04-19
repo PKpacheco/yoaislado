@@ -3,12 +3,17 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <div class="row text-left appear-animation-trigger">
-                <!-- {% for restaurante in site.data.restaurantes | sort | order: 'name'%} -->
-
-                {% assign sorted = (site.data.restaurantes | sort: 'name') | reverse %}
-                {% for restaurante in sorted %}
 
 
+                <ul>
+                    {% assign sorted = (site.data.restaurantes | sort: 'name') | reverse %}
+                    {% for restaurante in sorted %}
+                    <li>{{ restaurante.name }}</li>
+                    {% endfor %}
+                </ul>
+
+
+                {% for restaurante in site.data.restaurantes %}
                 <div class="effect-wrapper appear-animation col-md-4 col-sm-6 col-xs-12">
                     <div class="lily-effect ribbon-activator">
                         <div class="lily-head" data-toggle="modal" data-target="#restauranteDetail-{{ restaurante.id }}">
