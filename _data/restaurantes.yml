@@ -74,265 +74,95 @@
       - {abbr: "Sushi | Whatsapp", title: "Sushi | Whatsapp", url: "https://wa.me/5492615686065/"}
       - {abbr: "Sushi | Instagram", title: "Sushi | Instagram", url: "https://www.instagram.com/yokosushiarg/?igshid=1qmgy5v0ksjyi"}
 
--
-  id: 6
-  name: "Lina"
-  surname: "Gourmet"
-  company: "Delivery Gourmet"
-  title: ""
-  bio: " "
-  thumbnailUrl: lina_gourmet.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-    - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-    - {abbr: "Gourmet | Email", title: "Gourmet | Email", url: "mailto:marianamendezc@hotmail.com"}
+  -
+    id: 7
+    name: "Lina"
+    surname: "Gourmet"
+    company: "Delivery Gourmet"
+    title: ""
+    bio: " "
+    thumbnailUrl: lina_gourmet.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
+      - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
+      - {abbr: "Gourmet | Email", title: "Gourmet | Email", url: "mailto:marianamendezc@hotmail.com"}
    
--
-  id: 7
-  name: "Sushi"
-  surname: "Shop"
-  company: "Delivery Sushi"
-  title: ""
-  bio: " "
-  thumbnailUrl: sushi_shop.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Sushi | Sitio", title: "Sushi | Sitio", url: "www.sushishop.com.ar"}
-    - {abbr: "Sushi | Instagram", title: "Sushi | Instagram", url: "https://www.instagram.com/sushishopmza/"}
-    - {abbr: "Sushi | Teléfono", title: "Sushi | Teléfono", url: "tel:2612582713"}
-    
--
-  id: 8
-  name: "Laderas"
-  surname: "Buena Vida"
-  company: "Frutos secos, Frutas deshidratadas, Mix!"
-  title: ""
-  bio: " "
-  thumbnailUrl: laderas.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Frutos secos | Pedidos Online", title: "Frutos secos | Pedidos Online", url: "https://laderasbuenavida.com/producto/nueces-extra-light-2"}
-    - {abbr: "Frutos secos | Instagram", title: "Frutos secos | Instagram", url: "https://www.instagram.com/laderas.mza/"}
+  -
+    id: 8
+    name: "Sushi"
+    surname: "Shop"
+    company: "Delivery Sushi"
+    title: ""
+    bio: " "
+    thumbnailUrl: sushi_shop.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Sushi | Sitio", title: "Sushi | Sitio", url: "www.sushishop.com.ar"}
+      - {abbr: "Sushi | Instagram", title: "Sushi | Instagram", url: "https://www.instagram.com/sushishopmza/"}
+      - {abbr: "Sushi | Teléfono", title: "Sushi | Teléfono", url: "tel:2612582713"}
+      
+  -
+    id: 9
+    name: "Laderas"
+    surname: "Buena Vida"
+    company: "Frutos secos, Frutas deshidratadas, Mix!"
+    title: ""
+    bio: " "
+    thumbnailUrl: laderas.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Frutos secos | Pedidos Online", title: "Frutos secos | Pedidos Online", url: "https://laderasbuenavida.com/producto/nueces-extra-light-2"}
+      - {abbr: "Frutos secos | Instagram", title: "Frutos secos | Instagram", url: "https://www.instagram.com/laderas.mza/"}
 
--
-  id: 9
-  name: "Dioliva"
-  surname: "Aceite de Oliva"
-  company: "Aceite de Oliva"
-  title: ""
-  bio: " "
-  thumbnailUrl: dioliva.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Aceite de Oliva | Instagram", title: "Aceite de Oliva  | Instagram", url: "www.aceitedioliva.com.ar"}
-    - {abbr: "Aceite de Oliva  | Instagram", title: "Aceite de Oliva  | Instagram", url: "https://www.instagram.com/laderas.mza/"}
+  -
+    id: 10
+    name: "Dioliva"
+    surname: "Aceite de Oliva"
+    company: "Aceite de Oliva"
+    title: ""
+    bio: " "
+    thumbnailUrl: dioliva.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Aceite de Oliva | Instagram", title: "Aceite de Oliva  | Instagram", url: "www.aceitedioliva.com.ar"}
+      - {abbr: "Aceite de Oliva  | Instagram", title: "Aceite de Oliva  | Instagram", url: "https://www.instagram.com/laderas.mza/"}
 
--
-  id: 10
-  name: "Lina"
-  surname: "Gourmet"
-  company: "Delivery Gourmet"
-  title: ""
-  bio: " "
-  thumbnailUrl: lina_gourmet.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-    - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/jaggerbeers/"}
+  -
+    id: 11
+    name: "Lina"
+    surname: "Gourmet"
+    company: "Delivery Gourmet"
+    title: ""
+    bio: " "
+    thumbnailUrl: lina_gourmet.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
+      - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/jaggerbeers/"}
 
--
-  id: 11
-  name: "Cerveza"
-  surname: "Jagger"
-  company: "Delivery Cerveza"
-  title: ""
-  bio: " "
-  thumbnailUrl: jagger.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Cerveza | Sitio", title: "Cerveza | Sitio", url: "www.cerveceriajagger.com.ar"}
-    - {abbr: "Cerveza | Instagram", title: "Cerveza | Instagram", url: "https://www.instagram.com/linagourmet8/"}
+  -
+    id: 12
+    name: "Cerveza"
+    surname: "Jagger"
+    company: "Delivery Cerveza"
+    title: ""
+    bio: " "
+    thumbnailUrl: jagger.png
+    rockstar: true
+    ribbon:
+      - {abbr: "Cerveza | Sitio", title: "Cerveza | Sitio", url: "www.cerveceriajagger.com.ar"}
+      - {abbr: "Cerveza | Instagram", title: "Cerveza | Instagram", url: "https://www.instagram.com/linagourmet8/"}
 
-# -
-#   id: 12
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 13
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 14
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 15
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 16
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 17
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 18
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 19
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 20
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 21
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 22
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 23
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 24
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
-# -
-#   id: 25
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
-
+  # -
+  #   id: 13
+  #   name: "Lina"
+  #   surname: "Gourmet"
+  #   company: "Delivery Gourmet"
+  #   title: ""
+  #   bio: " "
+  #   thumbnailUrl: lina_gourmet.png
+  #   rockstar: true
+  #   ribbon:
+  #     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
+  #     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
