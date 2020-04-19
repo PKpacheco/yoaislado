@@ -5,7 +5,7 @@
             <div class="row text-left appear-animation-trigger">
                 <!-- {% for restaurante in site.data.restaurantes | sort | order: 'name'%} -->
 
-                {% assign sorted = (site.data.restaurantes | sort: 'name') %}
+                {% assign sorted = (site.data.restaurantes | sort: 'name') | reverse %}
                 {% for restaurante in sorted %}
 
 
