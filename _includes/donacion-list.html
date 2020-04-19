@@ -3,7 +3,8 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <div class="row text-left appear-animation-trigger">
-                {% for donacion in site.data.donaciones %}
+                {% assign sorted = (site.data.donaciones | sort: 'name') %}
+                {% for donacion in sorted %}
                 <div class="effect-wrapper appear-animation col-md-4 col-sm-6 col-xs-12">
                     <div class="lily-effect ribbon-activator">
                         <div class="lily-head" data-toggle="modal" data-target="#donacionDetail-{{ donacion.id }}">
