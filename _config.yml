@@ -47,9 +47,7 @@ eventDate: "Mendoza"
 # typeoutTextValues: '"", "Restaurantes", "Negocios ", "Donaciones ", "Servicios" ,"otros"'
 # typeoutFallback: "Restaurantes, Donaciones y Servicios"
 heroButtons:
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdWixfbqX1agPO_XFXZCrvJtq5HT62dCZHyDmb4Fei7e8q1ng/viewform", text: "Compartir restaurantes | comida "}
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLScUaohsNWJvqvhO_fpl0tgcsRDiWMQRti9zOOXB6ps3d1dnSQ/viewform", text: "Compartir un lugar que recibe donaciones"}
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLSdOq32lk6XLzSU-LJUg7pRVbeZaa32luiy4JGwvEPgFPU3Bcg/viewform", text: "Compartir un negocio de servicios"}
+ - {link: "https://forms.gle/FkJCYyHxX4x5mUiL7", text: "Quiero colaborar "}
 
 # About Block
 aboutTitle: "Conocé Yo Aislado"
