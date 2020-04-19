@@ -130,19 +130,6 @@
 
 -
   id: 11
-  name: "Lina"
-  surname: "Gourmet"
-  company: "Delivery Gourmet"
-  title: ""
-  bio: " "
-  thumbnailUrl: lina_gourmet.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Gourmet | Whatsapp", title: "Teléfono", url: "tel:2615881680"}
-    - {abbr: "Gourmet | Instagram", title: "Instagram", url: "https://www.instagram.com/jaggerbeers/"}
-
--
-  id: 12
   name: "Cerveza"
   surname: "Jagger"
   company: "Delivery Cerveza"
@@ -152,7 +139,20 @@
   rockstar: true
   ribbon:
     - {abbr: "Cervecería | Sitio", title: "Sitio", url: "www.cerveceriajagger.com.ar"}
-    - {abbr: "Cervecería | Instagram", title: "Instagram", url: "https://www.instagram.com/linagourmet8/"}
+    - {abbr: "Cervecería | Instagram", title: "Instagram", url: "https://www.instagram.com/jaggerbeers/"}
+
+# -
+#   id: 12
+#   name: "Cerveza"
+#   surname: "Jagger"
+#   company: "Delivery Cerveza"
+#   title: ""
+#   bio: " "
+#   thumbnailUrl: jagger.png
+#   rockstar: true
+#   ribbon:
+#     - {abbr: "Cervecería | Sitio", title: "Sitio", url: "www.cerveceriajagger.com.ar"}
+#     - {abbr: "Cervecería | Instagram", title: "Instagram", url: "https://www.instagram.com/linagourmet8/"}
 
 # -
 #   id: 13
