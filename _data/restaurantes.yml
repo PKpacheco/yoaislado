@@ -1,168 +1,168 @@
 
-#  -
-#    id: 1
-#    name: "Don"
-#    surname: "Mario"
-#    company: "Restaurante"
-#    title: "Servicios de envio a domicicio, pedidos por el sitio"
-#    bio: "Envios a la Casa"
-#    thumbnailUrl: donmario.png
-#    rockstar: true
-#    ribbon:
-#      - {abbr: "Envios | Sitio", title: "Sitio", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
+-
+  id: 1
+  name: "Don"
+  surname: "Mario"
+  company: "Restaurante"
+  title: "Servicios de envio a domicicio, pedidos por el sitio"
+  bio: "Envios a la Casa"
+  thumbnailUrl: donmario.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Envios | Sitio", title: "Sitio", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
 
-#  -
-#     id: 2
-#     name: "Sentite"
-#     surname: "Listo"
-#     company: "Comida Congelada"
-#     title: "Envio de comida congelada a domicicio"
-#     bio: "Viandas semanales que llegan a tu casa "
-#     thumbnailUrl: sentitelisto.png
-#     rockstar: true
-#     ribbon:
-#       - {abbr: "Viandas | Instagram", title: "Instagram", url: "https://www.instagram.com/sentitelisto/"}
+-
+  id: 2
+  name: "Sentite"
+  surname: "Listo"
+  company: "Comida Congelada"
+  title: "Envio de comida congelada a domicicio"
+  bio: "Viandas semanales que llegan a tu casa "
+  thumbnailUrl: sentitelisto.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Viandas | Instagram", title: "Instagram", url: "https://www.instagram.com/sentitelisto/"}
 
-#  -
-#     id: 3
-#     name: "Wanka"
-#     surname: "Saludable"
-#     company: "Delivery saludable"
-#     title: "Envio de comida saludable a domicicio"
-#     bio: " "
-#     thumbnailUrl: wanka.png
-#     rockstar: true
-#     ribbon:
-#       - {abbr: "Saludable | Instagram", title: "Instagram", url: "https://www.instagram.com/wankasaludable/"}
+-
+  id: 3
+  name: "Wanka"
+  surname: "Saludable"
+  company: "Delivery saludable"
+  title: "Envio de comida saludable a domicicio"
+  bio: " "
+  thumbnailUrl: wanka.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Saludable | Instagram", title: "Instagram", url: "https://www.instagram.com/wankasaludable/"}
 
-#  -
-#     id: 4
-#     name: "Petit"
-#     surname: "Patisserie"
-#     company: "Delivery de desayunos y pasteleria"
-#     title: "Delivery de desayunos y pasteleria"
-#     bio: " "
-#     thumbnailUrl: petit_patisserie.png
-#     rockstar: true
-#     ribbon:
-#       - {abbr: "Pasteleria | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492612344300/"}
-#       - {abbr: "Pasteleria | Instagram", title: "Instagram", url: "https://www.instagram.com/petit.patisserie.mdz/?igshid=1ldwg65g44vec"}
+-
+  id: 4
+  name: "Petit"
+  surname: "Patisserie"
+  company: "Delivery de desayunos y pasteleria"
+  title: "Delivery de desayunos y pasteleria"
+  bio: " "
+  thumbnailUrl: petit_patisserie.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Pasteleria | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492612344300/"}
+    - {abbr: "Pasteleria | Instagram", title: "Instagram", url: "https://www.instagram.com/petit.patisserie.mdz/?igshid=1ldwg65g44vec"}
 
-#  -
-#     id: 5
-#     name: "The Beer"
-#     surname: "Club"
-#     company: "Descubrí nuestro universo cervecero"
-#     title: "Delivery de pizzas, cervezas, burguer.."
-#     bio: " "
-#     thumbnailUrl: the_beer_club_chacras.png
-#     rockstar: true
-#     ribbon:
-#       - {abbr: "Beer | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492616509339/"}
-#       - {abbr: "Beer | Instagram", title: "Instagram", url: "https://www.instagram.com/thebeerclubarg/"}
+-
+  id: 5
+  name: "The Beer"
+  surname: "Club"
+  company: "Descubrí nuestro universo cervecero"
+  title: "Delivery de pizzas, cervezas, burguer.."
+  bio: " "
+  thumbnailUrl: the_beer_club_chacras.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Beer | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492616509339/"}
+    - {abbr: "Beer | Instagram", title: "Instagram", url: "https://www.instagram.com/thebeerclubarg/"}
 
-#  -
-#     id: 6
-#     name: "Yoko"
-#     surname: "Sushi"
-#     company: "Delivery - Take Away - Restó"
-#     title: ""
-#     bio: " "
-#     thumbnailUrl: yoko_sushi.png
-#     rockstar: true
-#     ribbon:
-#       - {abbr: "Sushi | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492615686065/"}
-#       - {abbr: "Sushi | Instagram", title: "Instagram", url: "https://www.instagram.com/yokosushiarg/?igshid=1qmgy5v0ksjyi"}
+-
+  id: 6
+  name: "Yoko"
+  surname: "Sushi"
+  company: "Delivery - Take Away - Restó"
+  title: ""
+  bio: " "
+  thumbnailUrl: yoko_sushi.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Sushi | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492615686065/"}
+    - {abbr: "Sushi | Instagram", title: "Instagram", url: "https://www.instagram.com/yokosushiarg/?igshid=1qmgy5v0ksjyi"}
 
-#   -
-    id: 7
-    name: "Lina"
-    surname: "Gourmet"
-    company: "Delivery Gourmet"
-    title: ""
-    bio: " "
-    thumbnailUrl: lina_gourmet.png
-    rockstar: true
-    ribbon:
-      - {abbr: "Gourmet | Whatsapp", title: "eléfono", url: "tel:2615881680"}
-      - {abbr: "Gourmet | Instagram", title: "Instagram", url: "https://www.instagram.com/linagourmet8/"}
-      - {abbr: "Gourmet | Email", title: "Email", url: "mailto:marianamendezc@hotmail.com"}
-   
-  -
-    id: 8
-    name: "Sushi"
-    surname: "Shop"
-    company: "Delivery Sushi"
-    title: ""
-    bio: " "
-    thumbnailUrl: sushi_shop.png
-    rockstar: true
-    ribbon:
-      - {abbr: "Sushi | Sitio", title: "Sitio", url: "www.sushishop.com.ar"}
-      - {abbr: "Sushi | Instagram", title: "nstagram", url: "https://www.instagram.com/sushishopmza/"}
-      - {abbr: "Sushi | Teléfono", title: "Teléfono", url: "tel:2612582713"}
-      
-  -
-    id: 9
-    name: "Laderas"
-    surname: "Buena Vida"
-    company: "Frutos secos, Frutas deshidratadas, Mix!"
-    title: ""
-    bio: " "
-    thumbnailUrl: laderas.png
-    rockstar: true
-    ribbon:
-      - {abbr: "Frutos secos | Pedidos Online", title: "Pedidos Online", url: "https://laderasbuenavida.com/producto/nueces-extra-light-2"}
-      - {abbr: "Frutos secos | Instagram", title: "Instagram", url: "https://www.instagram.com/laderas.mza/"}
+-
+  id: 7
+  name: "Lina"
+  surname: "Gourmet"
+  company: "Delivery Gourmet"
+  title: ""
+  bio: " "
+  thumbnailUrl: lina_gourmet.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Gourmet | Whatsapp", title: "eléfono", url: "tel:2615881680"}
+    - {abbr: "Gourmet | Instagram", title: "Instagram", url: "https://www.instagram.com/linagourmet8/"}
+    - {abbr: "Gourmet | Email", title: "Email", url: "mailto:marianamendezc@hotmail.com"}
+  
+-
+  id: 8
+  name: "Sushi"
+  surname: "Shop"
+  company: "Delivery Sushi"
+  title: ""
+  bio: " "
+  thumbnailUrl: sushi_shop.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Sushi | Sitio", title: "Sitio", url: "www.sushishop.com.ar"}
+    - {abbr: "Sushi | Instagram", title: "nstagram", url: "https://www.instagram.com/sushishopmza/"}
+    - {abbr: "Sushi | Teléfono", title: "Teléfono", url: "tel:2612582713"}
+    
+-
+  id: 9
+  name: "Laderas"
+  surname: "Buena Vida"
+  company: "Frutos secos, Frutas deshidratadas, Mix!"
+  title: ""
+  bio: " "
+  thumbnailUrl: laderas.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Frutos secos | Pedidos Online", title: "Pedidos Online", url: "https://laderasbuenavida.com/producto/nueces-extra-light-2"}
+    - {abbr: "Frutos secos | Instagram", title: "Instagram", url: "https://www.instagram.com/laderas.mza/"}
 
-  -
-    id: 10
-    name: "Dioliva"
-    surname: "Aceite de Oliva"
-    company: "Aceite de Oliva"
-    title: ""
-    bio: " "
-    thumbnailUrl: dioliva.png
-    rockstar: true
-    ribbon:
-      - {abbr: "Aceite de Oliva | Instagram", title: "Instagram", url: "www.aceitedioliva.com.ar"}
-      - {abbr: "Aceite de Oliva  | Instagram", title: "Instagram", url: "https://www.instagram.com/laderas.mza/"}
+-
+  id: 10
+  name: "Dioliva"
+  surname: "Aceite de Oliva"
+  company: "Aceite de Oliva"
+  title: ""
+  bio: " "
+  thumbnailUrl: dioliva.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Aceite de Oliva | Instagram", title: "Instagram", url: "www.aceitedioliva.com.ar"}
+    - {abbr: "Aceite de Oliva  | Instagram", title: "Instagram", url: "https://www.instagram.com/laderas.mza/"}
 
-  -
-    id: 11
-    name: "Lina"
-    surname: "Gourmet"
-    company: "Delivery Gourmet"
-    title: ""
-    bio: " "
-    thumbnailUrl: lina_gourmet.png
-    rockstar: true
-    ribbon:
-      - {abbr: "Gourmet | Whatsapp", title: "Teléfono", url: "tel:2615881680"}
-      - {abbr: "Gourmet | Instagram", title: "Instagram", url: "https://www.instagram.com/jaggerbeers/"}
+-
+  id: 11
+  name: "Lina"
+  surname: "Gourmet"
+  company: "Delivery Gourmet"
+  title: ""
+  bio: " "
+  thumbnailUrl: lina_gourmet.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Gourmet | Whatsapp", title: "Teléfono", url: "tel:2615881680"}
+    - {abbr: "Gourmet | Instagram", title: "Instagram", url: "https://www.instagram.com/jaggerbeers/"}
 
-  -
-    id: 12
-    name: "Cerveza"
-    surname: "Jagger"
-    company: "Delivery Cerveza"
-    title: ""
-    bio: " "
-    thumbnailUrl: jagger.png
-    rockstar: true
-    ribbon:
-      - {abbr: "Cervecería | Sitio", title: "Sitio", url: "www.cerveceriajagger.com.ar"}
-      - {abbr: "Cervecería | Instagram", title: "Instagram", url: "https://www.instagram.com/linagourmet8/"}
+-
+  id: 12
+  name: "Cerveza"
+  surname: "Jagger"
+  company: "Delivery Cerveza"
+  title: ""
+  bio: " "
+  thumbnailUrl: jagger.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Cervecería | Sitio", title: "Sitio", url: "www.cerveceriajagger.com.ar"}
+    - {abbr: "Cervecería | Instagram", title: "Instagram", url: "https://www.instagram.com/linagourmet8/"}
 
-  # -
-  #   id: 13
-  #   name: "Lina"
-  #   surname: "Gourmet"
-  #   company: "Delivery Gourmet"
-  #   title: ""
-  #   bio: " "
-  #   thumbnailUrl: lina_gourmet.png
-  #   rockstar: true
-  #   ribbon:
-  #     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-  #     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
+# -
+#   id: 13
+#   name: "Lina"
+#   surname: "Gourmet"
+#   company: "Delivery Gourmet"
+#   title: ""
+#   bio: " "
+#   thumbnailUrl: lina_gourmet.png
+#   rockstar: true
+#   ribbon:
+#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
+#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
