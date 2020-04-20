@@ -39,8 +39,15 @@
 						{% endif %}
 						<div class="people-details">
 							<div class="row">
-								<div class="col-md-2 col-sm-2">
+								<div class="col-md-2 col-sm-2">								
+
+									{% if servicio.thumbnailUrl != null %}
 									<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/services/' | append: servicio.thumbnailUrl }})"></div>
+									{% endif %}
+									<div class="flow-img img-circle people-img" style="background-image: url({{ servicio.thumb }})"></div>
+
+
+
 								</div>
 								<div class="col-md-10 col-sm-10 details">
 									<p class="name">{{ servicio.name }} {{ servicio.surname }}
@@ -54,7 +61,24 @@
 			                        </div>
 			                        {% endif %}
 									<p class="about">{{ servicio.bio }}</p>
-									<ul class="social">
+
+									{% if servicio.facebook %}
+										<a href="https://www.facebook.com/{{append: servicio.facebook}}">Facebook</a>
+									{% endif %}
+
+									{% if servicio.instagram %}
+										<a href="https://www.instagram.com/{{append: servicio.instagram}}">Instagram</a>
+									{% endif %}
+
+									{% if servicio.instagram != null %}
+										<!-- assign profile = (https://www.instagram.com/{servicio.instagram}/?__a=1) -->
+										profile = JSON.parse(open("https://www.instagram.com/{{servicio.instagram}}/?__a=1").read)
+										profile.['graphql']['user']['profile_pic_url']
+
+									{% endif %}
+
+
+									<!-- <ul class="social">
 										{% for social in servicio.social %}
 											<li>
 												<a href="{{ social["link"] }}" target="_blank">
@@ -64,7 +88,7 @@
 												</a>
 											</li>
 										{% endfor %}
-									</ul>
+									</ul> -->
 								</div>
 							</div>
 						</div>
