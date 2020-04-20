@@ -54,37 +54,37 @@
 			                        </div>
 			                        {% endif %}
 									<p class="about">{{ donacion.bio }}</p>
-										<ul>
+									<ul>
+										{% if donacion.facebook %}
 											<li>
-												{% if donacion.facebook %}
-													<a href="https://www.facebook.com/{{donacion.facebook}}"target="_blank">Facebook</a>
-												{% endif %}
+												<a href="https://www.facebook.com/{{donacion.facebook}}"target="_blank">Facebook</a>
 											</li>
-	
+										{% endif %}
+
+										{% if donacion.whatsapp %}
 											<li>
-												{% if donacion.whatsapp %}
-													<a href="https://wa.me/{{donacion.whatsapp}}" target="_blank">Whatsapp</a>
-												{% endif %}
+												<a href="https://wa.me/{{donacion.whatsapp}}" target="_blank">Whatsapp</a>
 											</li>
-											
+										{% endif %}
+										
+										{% if donacion.instagram %}
 											<li>
-												{% if donacion.instagram %}
-													<a href="https://www.instagram.com/{{donacion.instagram}}" target="_blank">Instagram</a>
-												{% endif %}
+												<a href="https://www.instagram.com/{{donacion.instagram}}" target="_blank">Instagram</a>
 											</li>
-	
+										{% endif %}
+
+										{% if donacion.site %}
 											<li>
-												{% if donacion.site %}
 												<a href="https://www.{{donacion.site}}" target="_blank">Sitio Web</a>
-												{% endif %}
 											</li>
-	
+										{% endif %}
+
+										{% if donacion.telefono %}
 											<li>
-												{% if donacion.telefono %}
 												<a href="tel:{{donacion.telefono}}" target="_blank">Telefono </a>
-												{% endif %}
 											</li>
-										</ul>
+										{% endif %}
+									</ul>
 						
 								</div>
 							</div>
