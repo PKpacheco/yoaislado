@@ -63,19 +63,13 @@
 									<p class="about">{{ servicio.bio }}</p>
 
 									{% if servicio.facebook %}
-										<a href="https://www.facebook.com/{{append: servicio.facebook}}">Facebook</a>
+										<a href="https://www.facebook.com/" {{append: servicio.facebook}}>Facebook</a>
 									{% endif %}
 
 									{% if servicio.instagram %}
-										<a href="https://www.instagram.com/{{append: servicio.instagram}}">Instagram</a>
+										<a href="https://www.instagram.com/" {{append: servicio.instagram}} >Instagram</a>
 									{% endif %}
 
-									{% if servicio.instagram != null %}
-										<!-- assign profile = (https://www.instagram.com/{servicio.instagram}/?__a=1) -->
-										profile = JSON.parse(open("https://www.instagram.com/{{servicio.instagram}}/?__a=1").read)
-										profile.['graphql']['user']['profile_pic_url']
-
-									{% endif %}
 
 
 									<!-- <ul class="social">
