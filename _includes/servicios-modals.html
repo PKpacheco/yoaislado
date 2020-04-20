@@ -62,7 +62,7 @@
 			                        {% endif %}
 									<p class="about">{{ servicio.bio }}</p>
 									
-									<ul class="social">
+									<ul>
 										<li>
 											{% if servicio.facebook %}
 												<a href="https://www.facebook.com/{{servicio.facebook}}"target="_blank">Facebook</a>
@@ -86,9 +86,9 @@
 											<a href="https://www.{{servicio.site}}" target="_blank">Sitio Web</a>
 											{% endif %}
 										</li>
-										
+
 										<li>
-											{% if servicio.tel %}
+											{% if servicio.telefono %}
 											<a href="tel:{{servicio.telefono}}" target="_blank">Telefono </a>
 											{% endif %}
 										</li>
