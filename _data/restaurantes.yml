@@ -148,7 +148,7 @@
   company: "Pastelería Creativa"
   title: ""
   bio: "Hacemos envios, o vos podes retirar su pedido en Urquiza 651."
-  thumbnailUrl: jagger.png
+  thumbnailUrl: alexandria_pasteleria.png
   rockstar: true
   ribbon:
     - {abbr: "Pastelería | Teléfono", title: "Teléfono", url: "tel:261156490008"}
