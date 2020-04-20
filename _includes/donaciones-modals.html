@@ -40,7 +40,16 @@
 						<div class="people-details">
 							<div class="row">
 								<div class="col-md-2 col-sm-2">
+								
+									{% if donacion.thumbnailUrl != null %}
 									<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/donations/' | append: donacion.thumbnailUrl }})"></div>
+									{% endif %}
+									<div class="flow-img img-circle people-img" style="background-image: url({{ donacion.thumb }})"></div>
+
+								
+								
+								
+								
 								</div>
 								<div class="col-md-10 col-sm-10 details">
 									<p class="name">{{ donacion.name }} {{ donacion.surname }}
@@ -83,6 +92,12 @@
 											<li>
 												<a href="tel:{{donacion.telefono}}" target="_blank">Telefono </a>
 											</li>
+										{% endif %}
+
+										{% if donacion.email %}
+										<li>
+											<a href="mailto:{{donacion.email}}" target="_blank">Email </a>
+										</li>
 										{% endif %}
 									</ul>
 						

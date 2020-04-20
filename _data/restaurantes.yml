@@ -1,3 +1,20 @@
+# - 
+#   id: 1
+#   name: "Teste "
+#   surname: "Teste"
+#   company: "Teste Teste "
+#   title: ""
+#   bio: "biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio"
+#   thumbnailUrl: 
+#   thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/61625648_330325547631837_8566670463554551808_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=aJqh-j3-ToEAX8eZJoR&oh=474c297c4cf8c25aa6739ddd94dc0427&oe=5EC74148"
+#   facebook: "yo_aislado"
+#   whatsapp: "51231226"
+#   instagram : "yo_aislado"
+#   site: "euaqui.com"
+#   telefono: "123123123"
+#   email:
+#   ribbon:
+#     - {abbr: "Envios de teste"}
 
 -
   id: 1
@@ -7,9 +24,15 @@
   title: "Servicios de envio a domicicio, pedidos por el sitio"
   bio: "Envios a la Casa"
   thumbnailUrl: donmario.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp:
+  instagram:
+  site: "donmario.com.ar/carta-para-envio-a-domicilio/"
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Envios | Sitio", title: "Sitio", url: "http://donmario.com.ar/carta-para-envio-a-domicilio/"}
+    - {abbr: "Envios"}
 
 -
   id: 2
@@ -19,9 +42,15 @@
   title: "Envio de comida congelada a domicicio"
   bio: "Viandas semanales que llegan a tu casa "
   thumbnailUrl: sentitelisto.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp:
+  instagram: "sentitelisto"
+  site: 
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Viandas | Instagram", title: "Instagram", url: "https://www.instagram.com/sentitelisto/"}
+    - {abbr: "Envios"}
 
 -
   id: 3
@@ -31,9 +60,15 @@
   title: "Envio de comida saludable a domicicio"
   bio: " "
   thumbnailUrl: wanka.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp:
+  instagram: "wankasaludable"
+  site: 
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Saludable | Instagram", title: "Instagram", url: "https://www.instagram.com/wankasaludable/"}
+    - {abbr: "Envios"}
 
 -
   id: 4
@@ -43,10 +78,15 @@
   title: "Delivery de desayunos y pasteleria"
   bio: " "
   thumbnailUrl: petit_patisserie.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp: "5492612344300"
+  instagram: "petit.patisserie.mdz"
+  site: 
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Pasteleria | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492612344300/"}
-    - {abbr: "Pasteleria | Instagram", title: "Instagram", url: "https://www.instagram.com/petit.patisserie.mdz/?igshid=1ldwg65g44vec"}
+    - {abbr: "Envios"}
 
 -
   id: 5
@@ -56,10 +96,15 @@
   title: "Delivery de pizzas, cervezas, burguer.."
   bio: " "
   thumbnailUrl: the_beer_club_chacras.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp: "5492616509339"
+  instagram: "thebeerclubarg"
+  site: 
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Beer | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492616509339/"}
-    - {abbr: "Beer | Instagram", title: "Instagram", url: "https://www.instagram.com/thebeerclubarg/"}
+    - {abbr: "Envios"}
 
 -
   id: 6
@@ -69,10 +114,15 @@
   title: ""
   bio: " "
   thumbnailUrl: yoko_sushi.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp: "5492615686065"
+  instagram: "yokosushiarg"
+  site: 
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Sushi | Whatsapp", title: "Whatsapp", url: "https://wa.me/5492615686065/"}
-    - {abbr: "Sushi | Instagram", title: "Instagram", url: "https://www.instagram.com/yokosushiarg/?igshid=1qmgy5v0ksjyi"}
+    - {abbr: "Envios"}
 
 -
   id: 7
@@ -82,11 +132,15 @@
   title: ""
   bio: " "
   thumbnailUrl: lina_gourmet.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp:
+  instagram: "linagourmet8"
+  site: 
+  telefono: "2615881680"
+  email: "marianamendezc@hotmail.com"
   ribbon:
-    - {abbr: "Gourmet | Whatsapp", title: "eléfono", url: "tel:2615881680"}
-    - {abbr: "Gourmet | Instagram", title: "Instagram", url: "https://www.instagram.com/linagourmet8/"}
-    - {abbr: "Gourmet | Email", title: "Email", url: "mailto:marianamendezc@hotmail.com"}
+    - {abbr: "Envios"}
   
 -
   id: 8
@@ -96,12 +150,16 @@
   title: ""
   bio: " "
   thumbnailUrl: sushi_shop.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp:
+  instagram: "sushishopmza"
+  site: "sushishop.com.ar"
+  telefono: "2612582713"
+  email:
   ribbon:
-    - {abbr: "Sushi | Sitio", title: "Sitio", url: "www.sushishop.com.ar"}
-    - {abbr: "Sushi | Instagram", title: "nstagram", url: "https://www.instagram.com/sushishopmza/"}
-    - {abbr: "Sushi | Teléfono", title: "Teléfono", url: "tel:2612582713"}
-    
+    - {abbr: "Envios"}
+   
 -
   id: 9
   name: "Laderas"
@@ -110,10 +168,15 @@
   title: ""
   bio: " "
   thumbnailUrl: laderas.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp:
+  instagram: "laderas.mza"
+  site: "laderasbuenavida.com/"
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Frutos secos | Pedidos Online", title: "Pedidos Online", url: "https://laderasbuenavida.com/producto/nueces-extra-light-2"}
-    - {abbr: "Frutos secos | Instagram", title: "Instagram", url: "https://www.instagram.com/laderas.mza/"}
+    - {abbr: "Envios"}
 
 -
   id: 10
@@ -123,10 +186,15 @@
   title: ""
   bio: " "
   thumbnailUrl: dioliva.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp:
+  instagram: "laderas.mza"
+  site: "aceitedioliva.com.ar"
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Aceite de Oliva | Sitio", title: "Sitio", url: "www.aceitedioliva.com.ar"}
-    - {abbr: "Aceite de Oliva  | Instagram", title: "Instagram", url: "https://www.instagram.com/laderas.mza/"}
+    - {abbr: "Envios"}
 
 -
   id: 11
@@ -137,10 +205,14 @@
   bio: " "
   thumbnailUrl: jagger.png
   thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/14099476_342441229479712_958079099_a.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=U5SCMUtmdl8AX_OxnkR&oh=a183621833c2363a028dd2341540a87e&oe=5EC9667B"
-  rockstar: true
+  facebook:
+  whatsapp:
+  instagram: "jaggerbeers"
+  site: "cerveceriajagger.com.ar"
+  telefono:
+  email:
   ribbon:
-    - {abbr: "Cervecería | Sitio", title: "Sitio", url: "www.cerveceriajagger.com.ar"}
-    - {abbr: "Cervecería | Instagram", title: "Instagram", url: "https://www.instagram.com/jaggerbeers/"}
+    - {abbr: "Envios"}
 
 -
   id: 12
@@ -150,20 +222,12 @@
   title: ""
   bio: "Hacemos envios, o vos podes retirar su pedido en Urquiza 651."
   thumbnailUrl: alexandria_pasteleria.png
-  rockstar: true
+  thumb:
+  facebook:
+  whatsapp:
+  instagram: "alexandria_mza"
+  site: 
+  telefono: "261156490008"
+  email:
   ribbon:
-    - {abbr: "Pastelería | Teléfono", title: "Teléfono", url: "tel:261156490008"}
-    - {abbr: "Pastelería | Instagram", title: "Instagram", url: "https://www.instagram.com/alexandria_mza/?r=nametag"}
-
-# -
-#   id: 13
-#   name: "Lina"
-#   surname: "Gourmet"
-#   company: "Delivery Gourmet"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: lina_gourmet.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Gourmet | Whatsapp", title: "Gourmet | Teléfono", url: "tel:2615881680"}
-#     - {abbr: "Gourmet | Instagram", title: "Gourmet | Instagram", url: "https://www.instagram.com/linagourmet8/"}
+    - {abbr: "Envios"}

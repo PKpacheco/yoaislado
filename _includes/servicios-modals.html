@@ -92,6 +92,12 @@
 												<a href="tel:{{servicio.telefono}}" target="_blank">Telefono </a>
 											</li>
 										{% endif %}
+
+										{% if servicio.email %}
+										<li>
+											<a href="mailto:{{servicio.email}}" target="_blank">Email </a>
+										</li>
+										{% endif %}
 									</ul>
 									<!-- <ul class="social">
 										{% for social in servicio.social %}

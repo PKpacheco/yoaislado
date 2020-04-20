@@ -13,6 +13,7 @@
 #   instagram : "yo_aislado"
 #   site: "euaqui.com"
 #   telefono: "123123123"
+# email
 #   ribbon:
 #     - {abbr: "Envios de teste"}
 
@@ -25,12 +26,12 @@
   bio: ""
   thumbnailUrl: farmacia_del_plata.png
   thumb:
-  rockstar: true
   facebook: "yo_aislado"
   whatsapp: "5492613256501"
   instagram:
   site:
   telefono:
+  email:
   ribbon:
     - {abbr: "Envios"}
 
@@ -43,12 +44,12 @@
   bio: ""
   thumbnailUrl: mayorista_en_country.png
   thumb:
-  rockstar: true
   facebook: "yo_aislado"
   whatsapp: "5492613256501"
   instagram: "mayoristaencountry"
   site: "mayoristaencountry.com/"
   telefono:
+  email:
   ribbon:
     - {abbr: "Envios "}
 
@@ -61,12 +62,12 @@
   bio: "Podes realizar pedidos y Cotizaciones, Informáticos e Comunicaciones por este medio, o  enviando correo a juancarlos@datec.com.ar , jorgea@datec.com.ar. A la brevedad contestaremos!!!!!"
   thumbnailUrl: datatec.png
   thumb:
-  rockstar: true
   facebook: "datec.srl"
   whatsapp:
   instagram:
   site:
-  telefono:   
+  telefono:
+  email:
   ribbon:
     - {abbr: "Envios"}
 
