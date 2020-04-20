@@ -63,11 +63,11 @@
 									<p class="about">{{ servicio.bio }}</p>
 
 									{% if servicio.facebook %}
-										<a href="https://www.facebook.com/" {{append: servicio.facebook}}>Facebook</a>
+										<a href="https://www.facebook.com/" {{servicio.facebook}} target="_blank">Facebook</a>
 									{% endif %}
 
 									{% if servicio.instagram %}
-										<a href="https://www.instagram.com/" {{append: servicio.instagram}} >Instagram</a>
+										<a href="https://www.instagram.com/ {{append: servicio.instagram}} target="_blank"" >Instagram</a>
 									{% endif %}
 
 
