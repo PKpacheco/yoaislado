@@ -55,16 +55,38 @@
 			                        {% endif %}
 									<p class="about">{{ donacion.bio }}</p>
 									<ul class="social">
-										{% for social in donacion.social %}
+										<ul>
 											<li>
-												<a href="{{ social["link"] }}" target="_blank">
-													<svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
-														<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
-													</svg>
-												</a>
+												{% if donacion.facebook %}
+													<a href="https://www.facebook.com/{{donacion.facebook}}"target="_blank">Facebook</a>
+												{% endif %}
 											</li>
-										{% endfor %}
-									</ul>
+	
+											<li>
+												{% if donacion.whatsapp %}
+													<a href="https://wa.me/{{donacion.whatsapp}}" target="_blank">Whatsapp</a>
+												{% endif %}
+											</li>
+											
+											<li>
+												{% if donacion.instagram %}
+													<a href="https://www.instagram.com/{{donacion.instagram}}" target="_blank">Instagram</a>
+												{% endif %}
+											</li>
+	
+											<li>
+												{% if donacion.site %}
+												<a href="https://www.{{donacion.site}}" target="_blank">Sitio Web</a>
+												{% endif %}
+											</li>
+	
+											<li>
+												{% if donacion.telefono %}
+												<a href="tel:{{donacion.telefono}}" target="_blank">Telefono </a>
+												{% endif %}
+											</li>
+										</ul>
+						
 								</div>
 							</div>
 						</div>

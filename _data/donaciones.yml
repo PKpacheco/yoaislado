@@ -1,12 +1,16 @@
- 
- -
+ - 
   id: 1
-  name: "Comedor Arco"
-  surname: "Iris"
-  company: "Comedor"
-  title: "Comedor niños"
-  bio: "Somos una instituicion con 30 niños. Aceptamos donaciones de comida, alimentos no perecederos. Retiramos a domicilio o vos podes traer..."
+  name: "Teste "
+  surname: "Teste"
+  company: "Teste Teste "
+  title: ""
+  bio: "biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio"
   thumbnailUrl: donate.png
-  rockstar: true
+  thumb: 
+  facebook: "teste"
+  whatsapp: "123123123"
+  instagram : "teste"
+  site: "teste.com"
+  telefono: "123123123"
   ribbon:
-    - {abbr: "Donaciones", title: "Donaciones | Teléfono", url: "htpps://google.com"}
+    - {abbr: "teste "}
