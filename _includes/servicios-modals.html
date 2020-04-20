@@ -63,35 +63,35 @@
 									<p class="about">{{ servicio.bio }}</p>
 									
 									<ul>
-										<li>
-											{% if servicio.facebook %}
+										{% if servicio.facebook %}
+											<li>
 												<a href="https://www.facebook.com/{{servicio.facebook}}"target="_blank">Facebook</a>
-											{% endif %}
-										</li>
+											</li>
+										{% endif %}
 
-										<li>
-											{% if servicio.whatsapp %}
+										{% if servicio.whatsapp %}
+											<li>
 												<a href="https://wa.me/{{servicio.whatsapp}}" target="_blank">Whatsapp</a>
-											{% endif %}
-										</li>
+											</li>
+										{% endif %}
 										
-										<li>
-											{% if servicio.instagram %}
+										{% if servicio.instagram %}
+											<li>
 												<a href="https://www.instagram.com/{{servicio.instagram}}" target="_blank">Instagram</a>
-											{% endif %}
-										</li>
+											</li>
+										{% endif %}
 
-										<li>
-											{% if servicio.site %}
-											<a href="https://www.{{servicio.site}}" target="_blank">Sitio Web</a>
-											{% endif %}
-										</li>
+										{% if servicio.site %}
+											<li>
+												<a href="https://www.{{servicio.site}}" target="_blank">Sitio Web</a>
+											</li>
+										{% endif %}
 
-										<li>
-											{% if servicio.telefono %}
-											<a href="tel:{{servicio.telefono}}" target="_blank">Telefono </a>
-											{% endif %}
-										</li>
+										{% if servicio.telefono %}
+											<li>
+												<a href="tel:{{servicio.telefono}}" target="_blank">Telefono </a>
+											</li>
+										{% endif %}
 									</ul>
 									<!-- <ul class="social">
 										{% for social in servicio.social %}
