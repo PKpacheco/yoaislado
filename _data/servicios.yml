@@ -49,19 +49,19 @@
     - {abbr: "Envios | Facebook", title: "Envios | Facebook", url: "https://www.facebook.com/datec.srl"}
 
 
-- 
-  id: 5
-  name: "Teste "
-  surname: "Teste"
-  company: "Teste Teste "
-  title: ""
-  bio: "biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio"
-  thumbnailUrl: 
-  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/61625648_330325547631837_8566670463554551808_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=aJqh-j3-ToEAX8eZJoR&oh=474c297c4cf8c25aa6739ddd94dc0427&oe=5EC74148"
-  facebook: "yo_aislado"
-  whatsapp: "51231226"
-  instagram : "yo_aislado"
-  site: "euaqui.com"
-  telefono: "123123123"
-  ribbon:
-    - {abbr: "Envios de teste"}
+# - 
+#   id: 5
+#   name: "Teste "
+#   surname: "Teste"
+#   company: "Teste Teste "
+#   title: ""
+#   bio: "biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio"
+#   thumbnailUrl: 
+#   thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/61625648_330325547631837_8566670463554551808_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=aJqh-j3-ToEAX8eZJoR&oh=474c297c4cf8c25aa6739ddd94dc0427&oe=5EC74148"
+#   facebook: "yo_aislado"
+#   whatsapp: "51231226"
+#   instagram : "yo_aislado"
+#   site: "euaqui.com"
+#   telefono: "123123123"
+#   ribbon:
+#     - {abbr: "Envios de teste"}
