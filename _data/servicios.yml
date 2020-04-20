@@ -1,56 +1,6 @@
 
-# -
-#   id: 1
-#   name: "Tintureria"
-#   surname: "ABC"
-#   company: ""
-#   title: "Servicios de retiro a domicicio, llamar por whatsapp"
-#   bio: "Retiramos su pedido en la casa. tel: 123 456 789"
-#   thumbnailUrl: laundry.jpg
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Retiro | Whatsapp", title: "Retiro | Whatsapp", url: "tel:123-456-7890"}
-
--
-  id: 2
-  name: "Farmacia Del"
-  surname: "Plata"
-  company: "Farmacia "
-  title: "Envio de medicamentos a domicicio"
-  bio: ""
-  thumbnailUrl: farmacia_del_plata.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Envios | Whatsapp", title: "Envios | Whatsapp", url: "https://wa.me/5492613256501/"}
-
--
-  id: 3
-  name: "Mayorista en"
-  surname: "Country"
-  company: "Mercado "
-  title: "Envio a domicicio"
-  bio: ""
-  thumbnailUrl: mayorista_en_country.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Envios | Sitio", title: "Envios | Sitio", url: "https://mayoristaencountry.com/"}
-    - {abbr: "Envios | Instagram", title: "Envios | Instagram", url: "https://www.instagram.com/mayoristaencountry/?igshid=1dym4u528ento"}
-
-- 
-  id: 4
-  name: "Datec "
-  surname: "Srl"
-  company: "Servicios Informáticos "
-  title: "Todo lo que necesitas en informatica"
-  bio: "Podes realizar pedidos y Cotizaciones, Informáticos e Comunicaciones por este medio, o  enviando correo a juancarlos@datec.com.ar , jorgea@datec.com.ar. A la brevedad contestaremos!!!!!"
-  thumbnailUrl: datatec.png
-  rockstar: true
-  ribbon:
-    - {abbr: "Envios | Facebook", title: "Envios | Facebook", url: "https://www.facebook.com/datec.srl"}
-
-
 # - 
-#   id: 5
+#   id: 1
 #   name: "Teste "
 #   surname: "Teste"
 #   company: "Teste Teste "
@@ -65,3 +15,59 @@
 #   telefono: "123123123"
 #   ribbon:
 #     - {abbr: "Envios de teste"}
+
+-
+  id: 2
+  name: "Farmacia Del"
+  surname: "Plata"
+  company: "Farmacia "
+  title: "Envio de medicamentos a domicicio"
+  bio: ""
+  thumbnailUrl: farmacia_del_plata.png
+  thumb:
+  rockstar: true
+  facebook: "yo_aislado"
+  whatsapp: "5492613256501"
+  instagram :
+  site: 
+  telefono: 
+  ribbon:
+    - {abbr: "Envios"}
+
+-
+  id: 3
+  name: "Mayorista en"
+  surname: "Country"
+  company: "Mercado "
+  title: "Envio a domicicio"
+  bio: ""
+  thumbnailUrl: mayorista_en_country.png
+  thumb:
+  rockstar: true
+  facebook: "yo_aislado"
+  whatsapp: "5492613256501"
+  instagram: "mayoristaencountry"
+  site: "mayoristaencountry.com/"
+  telefono:   
+  ribbon:
+    - {abbr: "Envios "}
+
+- 
+  id: 4
+  name: "Datec "
+  surname: "Srl"
+  company: "Servicios Informáticos "
+  title: "Todo lo que necesitas en informatica"
+  bio: "Podes realizar pedidos y Cotizaciones, Informáticos e Comunicaciones por este medio, o  enviando correo a juancarlos@datec.com.ar , jorgea@datec.com.ar. A la brevedad contestaremos!!!!!"
+  thumbnailUrl: datatec.png
+  thumb:
+  rockstar: true
+  facebook: "datec.srl"
+  whatsapp: 
+  instagram: 
+  site: 
+  telefono:   
+    ribbon:
+    - {abbr: "Envios"}
+
+
