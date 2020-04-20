@@ -61,27 +61,38 @@
 			                        </div>
 			                        {% endif %}
 									<p class="about">{{ servicio.bio }}</p>
+									
+									<ul class="social">
+										<li>
+											{% if servicio.facebook %}
+												<a href="https://www.facebook.com/{{servicio.facebook}}"target="_blank">Facebook</a>
+											{% endif %}
+										</li>
 
-									{% if servicio.facebook %}
-										<a href="https://www.facebook.com/{{servicio.facebook}}"target="_blank">Facebook</a>
-									{% endif %}
+										<li>
+											{% if servicio.whatsapp %}
+												<a href="https://wa.me/{{servicio.whatsapp}}" target="_blank">Whatsapp</a>
+											{% endif %}
+										</li>
+										
+										<li>
+											{% if servicio.instagram %}
+												<a href="https://www.instagram.com/{{servicio.instagram}}" target="_blank">Instagram</a>
+											{% endif %}
+										</li>
 
-									{% if servicio.whatsapp %}
-										<a href="https://wa.me/{{servicio.whatsapp}}" target="_blank">Whatsapp</a>
-									{% endif %}
-
-									{% if servicio.instagram %}
-										<a href="https://www.instagram.com/{{servicio.instagram}}" target="_blank">Instagram</a>
-									{% endif %}
-
-									{% if servicio.site %}
-									<a href="https://www.{{servicio.site}}" target="_blank">Sitio Web</a>
-									{% endif %}
-
-									{% if servicio.tel %}
-									<a href="tel:{{servicio.telefono}}" target="_blank">Telefono </a>
-									{% endif %}
-
+										<li>
+											{% if servicio.site %}
+											<a href="https://www.{{servicio.site}}" target="_blank">Sitio Web</a>
+											{% endif %}
+										</li>
+										
+										<li>
+											{% if servicio.tel %}
+											<a href="tel:{{servicio.telefono}}" target="_blank">Telefono </a>
+											{% endif %}
+										</li>
+									</ul>
 									<!-- <ul class="social">
 										{% for social in servicio.social %}
 											<li>
