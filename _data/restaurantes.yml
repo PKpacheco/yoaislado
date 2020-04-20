@@ -141,18 +141,18 @@
     - {abbr: "Cervecería | Sitio", title: "Sitio", url: "www.cerveceriajagger.com.ar"}
     - {abbr: "Cervecería | Instagram", title: "Instagram", url: "https://www.instagram.com/jaggerbeers/"}
 
-# -
-#   id: 12
-#   name: "Cerveza"
-#   surname: "Jagger"
-#   company: "Delivery Cerveza"
-#   title: ""
-#   bio: " "
-#   thumbnailUrl: jagger.png
-#   rockstar: true
-#   ribbon:
-#     - {abbr: "Cervecería | Sitio", title: "Sitio", url: "www.cerveceriajagger.com.ar"}
-#     - {abbr: "Cervecería | Instagram", title: "Instagram", url: "https://www.instagram.com/linagourmet8/"}
+-
+  id: 12
+  name: "Alexandria"
+  surname: "Pasteleria Creativa"
+  company: "Pastelería Creativa"
+  title: ""
+  bio: "Hacemos envios, o vos podes retirar su pedido en Urquiza 651."
+  thumbnailUrl: jagger.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Pastelería | Teléfono", title: "Teléfono", url: "tel:261156490008"}
+    - {abbr: "Pastelería | Instagram", title: "Instagram", url: "https://www.instagram.com/alexandria_mza/?r=nametag"}
 
 # -
 #   id: 13
