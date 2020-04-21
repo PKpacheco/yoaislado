@@ -8,7 +8,7 @@ plugins:
 # paginate_path: "/page/:num"
 
 safe: false
-exclude: ['vendor']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
 
 # Build Settings
 markdown: kramdown
