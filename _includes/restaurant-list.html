@@ -30,6 +30,8 @@
                                     {% for ribbon in restaurante.ribbon %}
                                     <li class="{{ ribbon["category"] | downcase }}">
                                         <p class="ribbon abbr">{{ ribbon["category"] }}</p>
+                                        <p class="ribbon full-title">{{ ribbon["category"] }}</p>
+
                                     </li>
                                     {% endfor %}
                                 </ul>
