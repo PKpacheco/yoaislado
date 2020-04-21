@@ -92,8 +92,8 @@
 -
   id: 6
   name: "OHNOLULU"
-  surname: "Nice Lingerie"
-  company: ""
+  surname: 
+  company: "Nice Lingerie"
   title: ""
   bio: ""
   thumbnailUrl:
