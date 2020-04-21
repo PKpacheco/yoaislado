@@ -72,7 +72,7 @@
 
 -
   id: 4
-  category: "pasteleria"
+  category: "[pasteleria, teste]"
   name: "Petit"
   surname: "Patisserie"
   company: "Delivery de desayunos y pasteleria"
@@ -214,7 +214,7 @@
 
 -
   id: 12
-  category: "pasteleria"
+  category: "pasteleria, teste"
   name: "Alexandria"
   surname: "Pasteleria Creativa"
   company: "Pastelería Creativa"

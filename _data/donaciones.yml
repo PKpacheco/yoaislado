@@ -3,6 +3,7 @@
   name: "Teste "
   surname: "Teste"
   company: "Teste Teste "
+  category: "teste"
   title: ""
   bio: "biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio"
   thumbnailUrl: donate.png
@@ -12,5 +13,4 @@
   instagram : "teste"
   site: "teste.com"
   telefono: "123123123"
-  ribbon:
-    - {abbr: "teste "}
+
