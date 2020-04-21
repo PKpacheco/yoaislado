@@ -72,6 +72,7 @@
 
 -
   id: 4
+  category: "pasteleria"
   name: "Petit"
   surname: "Patisserie"
   company: "Delivery de desayunos y pasteleria"
@@ -108,6 +109,7 @@
 
 -
   id: 6
+  category : "sushi"
   name: "Yoko"
   surname: "Sushi"
   company: "Delivery - Take Away - Restó"
@@ -144,6 +146,7 @@
   
 -
   id: 8
+  category : "sushi"
   name: "Sushi"
   surname: "Shop"
   company: "Delivery Sushi"
@@ -212,6 +215,7 @@
 
 -
   id: 12
+  category: "pasteleria"
   name: "Alexandria"
   surname: "Pasteleria Creativa"
   company: "Pastelería Creativa"
