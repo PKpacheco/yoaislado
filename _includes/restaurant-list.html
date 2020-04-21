@@ -29,7 +29,9 @@
                                 <ul class="ribbon-wrapper">
                                     {% for category in restaurante.category %}
                                     <li class="{{ ribbon["category"] | downcase }}">
-                                        <p class="ribbon abbr">{{ ribbon.category }}</p>
+                                        <p class="ribbon abbr">{{ restaurante.category }}</p>
+                                        <p class="ribbon full-title">{{ restaurante["category"] }}</p>
+
                                     </li>
                                     {% endfor %}
                                 </ul>
