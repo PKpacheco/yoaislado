@@ -3,7 +3,6 @@
 #   name: "Teste "
 #   surname: "Teste"
 #   company: "Teste Teste "
-#   category: teste
 #   title: ""
 #   bio: "biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio"
 #   thumbnailUrl: 
@@ -14,8 +13,9 @@
 #   site: "euaqui.com"
 #   telefono: "123123123"
 #   email:
-#   ribbon:
-#     - {abbr: "Envios de teste"}
+  # categories: 
+  #   - {category: "Pasteleria"}
+  #   - {category: "Category2 "}
 
 -
   id: 1
@@ -32,8 +32,8 @@
   site: "donmario.com.ar/carta-para-envio-a-domicilio/"
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Restaurante"}
 
 -
   id: 2
@@ -50,8 +50,8 @@
   site: 
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Otros"}
 
 -
   id: 3
@@ -68,8 +68,9 @@
   site: 
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Otros"}
+
 
 -
   id: 4
@@ -88,7 +89,6 @@
   email:
   categories: 
     - {category: "Pasteleria"}
-    - {category: "Category2 "}
 
 
 
@@ -107,12 +107,12 @@
   site: 
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Cerveza"}
+
 
 -
   id: 6
-  category : "sushi"
   name: "Yoko"
   surname: "Sushi"
   company: "Delivery - Take Away - Restó"
@@ -126,8 +126,8 @@
   site: 
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Sushi"}
 
 -
   id: 7
@@ -144,12 +144,11 @@
   site: 
   telefono: "2615881680"
   email: "marianamendezc@hotmail.com"
-  ribbon:
-    - {abbr: "Envios"}
+  categories: 
+    - {category: "Otros"}
   
 -
   id: 8
-  category : "sushi"
   name: "Sushi"
   surname: "Shop"
   company: "Delivery Sushi"
@@ -163,8 +162,8 @@
   site: "sushishop.com.ar"
   telefono: "2612582713"
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Sushi"}
    
 -
   id: 9
@@ -181,8 +180,9 @@
   site: "laderasbuenavida.com/"
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Otros"}
+
 
 -
   id: 10
@@ -199,8 +199,8 @@
   site: "aceitedioliva.com.ar"
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Otros"}
 
 -
   id: 11
@@ -213,12 +213,11 @@
   whatsapp:
   instagram: "jaggerbeers"
   site: "cerveceriajagger.com.ar"
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Cerveza"}
 
 -
   id: 12
-  category: "pasteleria"
   name: "Alexandria"
   surname: "Pasteleria Creativa"
   company: "Pastelería Creativa"
@@ -232,5 +231,5 @@
   site: 
   telefono: "261156490008"
   email:
-  ribbon:
-    - {abbr: "Envios | Retiro"}
+  categories: 
+    - {category: "Pasteleria"}
