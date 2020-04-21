@@ -71,4 +71,22 @@
   ribbon:
     - {abbr: "Envios"}
 
+- 
+  id: 4
+  name: "Lavasec "
+  surname: "Lavanderia"
+  company: "Lavanderia y Tintoreria  "
+  title: "Retiro y Entrega a domicilio"
+  bio: ""
+  thumbnailUrl: lavasec.jpeg
+  thumb:
+  facebook:
+  whatsapp: "54261156419400"
+  instagram:
+  site:
+  telefono: "2614238866"
+  email:
+  ribbon:
+    - {abbr: "Retiro en la casa"}
+
 
