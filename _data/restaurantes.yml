@@ -233,3 +233,41 @@
   email:
   categories: 
     - {category: "Pasteleria"}
+
+-
+  id: 13
+  name: "Capsicum"
+  surname: "Gourmet"
+  company: "Conservas Gourmet"
+  title: ""
+  bio: "Conservas Gourmet... 100% naturales y deliciosas "
+  thumbnailUrl:
+  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/39810480_283839025540409_3235434546665095168_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=B1sKuPuCh1IAX_NfVoy&oh=71ae8c1d9bdbf23989455c7e2bf74c23&oe=5EC99D84"
+  facebook:
+  whatsapp:
+  instagram: "capsicumgourmett"
+  site: "capsicumgourmet.com"
+  telefono: 
+  email:
+  categories: 
+    - {category: "Otros"}
+
+-
+  id: 14
+  name: "Capsicum"
+  surname: ".ba"
+  company: "Salsas Gourmet"
+  title: ""
+  bio: ""
+  thumbnailUrl:
+  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/57009250_871359476546935_1055604855713824768_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=D33gg0E-f1sAX_ZZhTW&oh=2a98f9cb21d14481b7bda5978c95fd79&oe=5ECA25A2"
+  facebook:
+  whatsapp:
+  instagram: "capsicum.ba"
+  site: 
+  telefono: 
+  email:
+  categories: 
+    - {category: "Otros"}
+
+    

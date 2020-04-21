@@ -23,10 +23,10 @@
   surname: "Plata"
   company: "Farmacia "
   title: "Envio de medicamentos a domicicio"
-  bio: ""
+  bio:
   thumbnailUrl: farmacia_del_plata.png
   thumb:
-  facebook: "yo_aislado"
+  facebook:
   whatsapp: "5492613256501"
   instagram:
   site:
@@ -41,7 +41,7 @@
   surname: "Country"
   company: "Mercado "
   title: "Envio a domicicio"
-  bio: ""
+  bio:
   thumbnailUrl: mayorista_en_country.png
   thumb:
   facebook: "yo_aislado"
@@ -50,8 +50,8 @@
   site: "mayoristaencountry.com/"
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios "}
+  categories:
+    - {category: "Mercado"}
 
 - 
   id: 4
@@ -68,8 +68,8 @@
   site:
   telefono:
   email:
-  ribbon:
-    - {abbr: "Envios"}
+  categories:
+    - {category: "Informatica"}
 
 - 
   id: 5
@@ -86,7 +86,41 @@
   site:
   telefono: "2614238866"
   email:
-  ribbon:
-    - {abbr: "Retiro en la casa"}
+  categories:
+    - {category: "Lavanderia | Tintoreria"}
 
+-
+  id: 6
+  name: "OHNOLULU"
+  surname: "Nice Lingerie"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl:
+  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/18011838_191903821318251_8273725497507053568_a.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=SW_1_U6nQhIAX9pqglN&oh=625757547787258eb35ed32b83492ee6&oe=5EC697E1"
+  facebook:
+  whatsapp:
+  instagram: "ohnolulu"
+  site: "ohnolululenceria.com.ar"
+  telefono: 
+  email:
+  categories: 
+    - {category: "Lencerias"}
 
+-
+  id: 7
+  name: "Habia Una Vez"
+  surname: "Tejidos"
+  company: "Ropa Accesorios y Tejidos para BEBES y NIÑOS"
+  title:
+  bio: "261 5189429 CaroB o 2615781880 VickyG"
+  thumbnailUrl:
+  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/14624618_344753962559349_6273656710632570880_a.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=UPeK75kFgdAAX9yDJxb&oh=5dbe665ce6c4bd8d8bfc4d188037b24e&oe=5ECA830A"
+  facebook:
+  whatsapp:
+  instagram: "habiaunaveztejidos"
+  site:
+  telefono: "2615189429"
+  email:
+  categories: 
+    - {category: "Ropa"}

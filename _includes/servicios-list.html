@@ -21,25 +21,20 @@
                                 
                                 
                                 <div class="overlay solid-overlay"></div>
-                                {% if servicio.ribbon != null %}
+                                {% if servicio.categories != null %}
                                 <ul class="ribbon-wrapper">
-                                    {% for ribbon in servicio.ribbon %}
-                                    <li class="{{ ribbon["abbr"] | downcase }}">
-                                        <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
-                                        <p class="ribbon full-title">{{ ribbon["title"] }}</p>
+                                    {% for categories in servicio.categories %}
+                                    <li class="{{ ribbon["category"] | downcase }}">
+                                        <p class="ribbon abbr">{{ categories["category"] }}</p>
+                                        <p class="ribbon full-title">{{ categories.category }}</p>
                                     </li>
                                     {% endfor %}
                                 </ul>
                                 {% endif %}
-                                {% if site.showSessions %}
-                                <figcaption>
-                                    <h2 class="name">{{ servicio.name }} <span>{{ servicio.surname }}</span></h2>
-                                    <p class="position">{{ servicio.company }}</p>
-                                </figcaption>
-                                {% endif %}
+
                             </figure>
                         </div>
-                        <div class="lily-bottom">
+                        <!-- <div class="lily-bottom">
                             <ul class="slider">
                                 {% assign sessionsNumber = 0 %}
                                 {% if site.showSessions %} 
@@ -57,7 +52,7 @@
                                 {% endif %}
                             </ul>
                             <a href="#" class="slider-next-item {% if sessionsNumber < 2 %}hidden{% endif %}">Next</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 {% endfor %}
