@@ -8,4 +8,3 @@ gem "jekyll-paginate"
 gem 'jekyll-tagging'
 
 gem "rake"
-ruby "2.3.7"
