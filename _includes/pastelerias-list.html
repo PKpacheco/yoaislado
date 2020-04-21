@@ -3,8 +3,9 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
 
-                    {% assign items_grouped = data.restaurantes | group_by: 'categories' == "Pasteleria" %}
-                    {% for group in items_grouped %}
+                {% assign items_grouped = data.restaurantes | group_by: 'categories' %}
+                {% for group in items_grouped %}
+                    {% if group = "Pasteleria"%}
                         {% for item in group.items %}
                       
                             <div class="row text-left appear-animation-trigger">
@@ -40,6 +41,9 @@
                                 {% endfor %}
                             </div> 
                         {% endfor %}
+                    {% endif %}
+                {% endfor %}
+
         </div>
     </div>
 
