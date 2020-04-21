@@ -3,8 +3,9 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
 
-            {% assign filter-category = site.data.restaurantes | where: "categories["category"] ","Pasteleria" %}
-            {% for restaurante in filter-category %}
+
+            {% assign pastelerias = site.restautantes | where: "categories", "Pasteleria" %}
+            {% for pasteleria in pastelerias %}
             <div class="row text-left appear-animation-trigger">
                 {% assign sorted = (site.data.restaurantes | sort: 'name') %}
                 {% for restaurante in sorted %}
@@ -21,11 +22,12 @@
                                     
 
                                 <div class="overlay solid-overlay"></div>
-                                {% if restaurante.category != null %}
+                                {% if restaurante.categories != null %}
                                 <ul class="ribbon-wrapper">
-                                    {% for ribbon in restaurante.ribbon %}
+                                    {% for categories in restaurante.categories %}
                                     <li class="{{ ribbon["category"] | downcase }}">
-                                        <p class="ribbon abbr">{{ ribbon["category"] }}</p>
+                                        <p class="ribbon abbr">{{ categories["category"] }}</p>
+                                        <p class="ribbon full-title">{{ categories.category }}</p>
                                     </li>
                                     {% endfor %}
                                 </ul>
