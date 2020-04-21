@@ -2,19 +2,25 @@
 <section id="restaurantes" class="restaurantes">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
+
+
             <div class="dropdown">
-                <div id="myDropdown" class="dropdown-content">
-                  
-                  <a href="#base">Base</a>
-                  {% assign items_grouped = site.data.restaurantes | group_by: 'category' %}
-                  {% for group in items_grouped %}
-                    <a href="#about">{{group.category}}</a>
-                    {% for item in group.items %}
-                        <p>{{item.name}}</p>
+                <button class="dropbtn">Categorias
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    {% assign items_grouped = site.data.restaurantes | group_by: 'category' %}
+                    {% for group in items_grouped %}
+                      <a href="#category">{{group.category}}</a>
+                      {% for item in group.items %}
+                        <a href="#item_category">{{item.category}}</a>
+                      {% endfor %}
                     {% endfor %}
-                  {% endfor %}
-                  </div>
+  
+                </div>
               </div>
+
+
             <div class="row text-left appear-animation-trigger">
                 {% assign sorted = (site.data.restaurantes | sort: 'name') %}
                 {% for restaurante in sorted %}
