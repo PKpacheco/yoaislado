@@ -6,9 +6,6 @@
             {% assign items_grouped = site.data.restaurantes | group_by: 'category' %}
             {% for group in items_grouped %}
                 <h3>{{group.name}}</h3>
-                <!-- {% for item in group.items %}
-                    <p>{{item.name}}</p> -->
-                {% endfor %}
             {% endfor %}
 
             <div class="dropdown">
