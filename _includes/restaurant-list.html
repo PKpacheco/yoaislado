@@ -25,7 +25,7 @@
                                     
 
                                 <div class="overlay solid-overlay"></div>
-                                {% if restaurante.category != null %}
+                                {% if restaurante.categories != null %}
                                 <ul class="ribbon-wrapper">
                                     {% for category in restaurante.categories %}
                                     <li class="{{ ribbon["category"] | downcase }}">
