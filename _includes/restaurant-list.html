@@ -6,7 +6,9 @@
 
             {% assign items_grouped = site.data.restaurantes | group_by: 'category' %}
             {% for group in items_grouped %}
-                <a href="{{ site.baseurl }}/{{group.name}}">{{ group.name }}</a>
+                <ul>
+                <li><a href="{{ site.baseurl }}/restaurantes/{{group.name}}">{{ group.name }}</a></li>
+                </ul>
             {% endfor %}
 
             <div class="row text-left appear-animation-trigger">
