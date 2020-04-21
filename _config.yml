@@ -8,8 +8,7 @@ plugins:
 # paginate_path: "/page/:num"
 
 safe: false
-exclude: [vendor]
-- _posts/2019-09-07-welcome-to-jekyll.markdown
+exclude: ['vendor']
 
 # Build Settings
 markdown: kramdown
