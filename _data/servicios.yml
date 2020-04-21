@@ -123,4 +123,58 @@
   telefono: "2615189429"
   email:
   categories: 
+    - {category: "Ropa bebé y niños"}
+
+-
+  id: 8
+  name: "Herma"
+  surname: "Diseño"
+  company: "Ropas"
+  title:
+  bio:
+  thumbnailUrl:
+  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s150x150/20214178_464062593968515_6847746383290564608_a.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=9cmXUODnSeYAX-v5iyG&oh=07eb4fea4854f95032c093633dd20784&oe=5EC9764B"
+  facebook:
+  whatsapp:
+  instagram: "hermadiseno"
+  site:
+  telefono:
+  email:
+  categories: 
+    - {category: "Ropa"}
+
+-
+  id: 9
+  name: "Un cuento"
+  surname: "para después"
+  company: "Libro de recuerdos"
+  title:
+  bio: "Un libro de recuerdos sobre la primer etapa de la vida"
+  thumbnailUrl:
+  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/56508855_309929959701304_6326076511602343936_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=fClnibvOuDoAX_6p7mr&oh=caaf8d3a99a8c744ea385c928bd51b5d&oe=5EC95191"
+  facebook:
+  whatsapp:
+  instagram: "uncuentoparadespues"
+  site:
+  telefono:
+  email:
+  categories: 
+    - {category: "Otros"}
+
+-
+  id: 10
+  name: "Fanas"
+  surname: "Calzas"
+  company: "Calzas"
+  title:
+  bio: 
+  thumbnailUrl:
+  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/69969957_751083181982295_1774754188345999360_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=8C1kG8zI1XsAX_lufVD&oh=15ba86dce2812fdb761e203715866168&oe=5EC91CFB"
+  facebook:
+  whatsapp:
+  instagram: "fanas.calzas"
+  site:
+  telefono:
+  email:
+  categories: 
     - {category: "Ropa"}
