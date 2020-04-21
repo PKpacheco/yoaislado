@@ -9,6 +9,8 @@ plugins:
 
 safe: false
 exclude: [vendor]
+- _posts/2019-09-07-welcome-to-jekyll.markdown
+
 # Build Settings
 markdown: kramdown
 permalink: pretty
