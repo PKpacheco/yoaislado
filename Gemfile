@@ -6,3 +6,6 @@ gem 'sass-media_query_combiner'
 gem 'autoprefixer-rails'
 gem "jekyll-paginate"
 gem 'jekyll-tagging'
+
+gem "rake"
+ruby "2.3.7"
