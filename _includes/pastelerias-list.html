@@ -2,13 +2,11 @@
 <section id="restaurantes" class="restaurantes">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            {% assign sorted = (site.data.restaurantes | sort: 'name') %}
-            {% for restaurante in sorted %}
-                {% if restaurante.categories != null %}
-                    {% for categories in restaurante.categories %}
-                        {% if categories["category"]= "Pasteleria" %}
 
-
+                    {% assign items_grouped = data.restaurantes | group_by: 'categories' == "Pasteleria" %}
+                    {% for group in items_grouped %}
+                        {% for item in group.items %}
+                      
                             <div class="row text-left appear-animation-trigger">
                                 {% assign sorted = (site.data.restaurantes | sort: 'name') %}
                                 {% for restaurante in sorted %}
@@ -41,10 +39,7 @@
                                 </div>
                                 {% endfor %}
                             </div> 
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-            {% endfor %}
+                        {% endfor %}
         </div>
     </div>
 
