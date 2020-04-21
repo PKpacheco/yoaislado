@@ -3,14 +3,8 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
 
-
-
-            {% assign filter-category = site.data.restaurantes | where: "category","Pasteleria" %}
+            {% assign filter-category = site.data.restaurantes | where: "categories["category"] ","Pasteleria" %}
             {% for restaurante in filter-category %}
-              <li>{{restaurante.name}}</li>
-            {% endfor %}
-
-
             <div class="row text-left appear-animation-trigger">
                 {% assign sorted = (site.data.restaurantes | sort: 'name') %}
                 {% for restaurante in sorted %}
@@ -36,32 +30,7 @@
                                     {% endfor %}
                                 </ul>
                                 {% endif %}
-                                <!-- {% if site.showSessions %}
-                                <figcaption>
-                                    <h2 class="name">{{ restaurante.name }} <span>{{ restaurante.surname }}</span></h2>
-                                    <p class="position">{{ restaurante.company }}</p>
-                                </figcaption>
-                                {% endif %} -->
                             </figure>
-                        </div>
-                        <div class="lily-bottom">
-                            <ul class="slider">
-                                {% assign sessionsNumber = 0 %}
-                                {% if site.showSessions %} 
-                                    {% for session in site.data.sessions %} 
-                                        {% for session_restaurante in session.restaurantes %} 
-                                            {% if session_restaurante == restaurante.id %}
-                                            {% assign sessionsNumber = sessionsNumber | plus: 1 %}
-                                                <li class="title slider-item animated fadeInRight hidden">{{ session.title }}</li>
-                                            {% endif %} 
-                                        {% endfor %} 
-                                    {% endfor %} 
-                                {% else %}
-                                    <h2 class="name">{{ restaurante.name }} <span>{{ restaurante.surname }}</span></h2>
-                                    <p class="position">{{ restaurante.company }}</p>
-                                {% endif %}
-                            </ul>
-                            <a href="#" class="slider-next-item {% if sessionsNumber < 2 %}hidden{% endif %}">Next</a>
                         </div>
                     </div>
                 </div>
@@ -69,22 +38,9 @@
             </div> 
         </div>
     </div>
-    {% if paginator.total_pages > 1 %}
-    <div class="row">
-        <div class="pagination">
-            {% if paginator.previous_page %}
-            <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-            {% else %}
-            <span class="previous">Previous</span>
-            {% endif %}
-            <span class="page-number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-            {% if paginator.next_page %}
-            <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-            {% else %}
-            <span class="next ">Next</span>
-            {% endif %}
-        </div>
-    </div>
-    {% endif %}
+
+            {% endfor %}
+
+
 </section>
 <!-- End restaurantes List -->
