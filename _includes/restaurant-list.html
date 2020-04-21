@@ -22,25 +22,18 @@
                                 {% endif %}
                                 <figure class="waves-effect waves-block waves-light" style="background-image: url({{ restaurante.thumb }})">
 
-                                    
 
                                 <div class="overlay solid-overlay"></div>
                                 {% if restaurante.categories != null %}
                                 <ul class="ribbon-wrapper">
                                     {% for categories in restaurante.categories %}
                                     <li class="{{ ribbon["category"] | downcase }}">
-                                        <p class="ribbon abbr">{{ restaurante["category"] }}</p>
-                                        <p class="ribbon full-title">{{ restaurante.category }}</p>
+                                        <p class="ribbon abbr">{{ categories["category"] }}</p>
+                                        <p class="ribbon full-title">{{ categories.category }}</p>
                                     </li>
                                     {% endfor %}
                                 </ul>
                                 {% endif %}
-                                <!-- {% if site.showSessions %}
-                                <figcaption>
-                                    <h2 class="name">{{ restaurante.name }} <span>{{ restaurante.surname }}</span></h2>
-                                    <p class="position">{{ restaurante.company }}</p>
-                                </figcaption>
-                                {% endif %} -->
                             </figure>
                         </div>
                         <div class="lily-bottom">
