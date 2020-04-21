@@ -73,9 +73,6 @@
 
 -
   id: 4
-  categories: 
-      - {category: "Pasteleria "}
-      - {category: "Category2 "}
   name: "Petit"
   surname: "Patisserie"
   company: "Delivery de desayunos y pasteleria"
@@ -89,6 +86,10 @@
   site: 
   telefono:
   email:
+  categories: 
+    - {category: "Pasteleria"}
+    - {category: "Category2 "}
+
 
 
 -
