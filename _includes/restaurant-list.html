@@ -2,6 +2,21 @@
 <section id="restaurantes" class="restaurantes">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="#about">About</a>
+                  <a href="#base">Base</a>
+                  {% assign items_grouped = site.data.restaurantes | group_by: 'name' %}
+                  {% for group in items_grouped %}
+                    <h3>{{group.name}}</h3>
+                    {% for item in group.items %}
+                        <p>{{item.name}}</p>
+                    {% endfor %}
+                  {% endfor %}
+                  </div>
+              </div>
             <div class="row text-left appear-animation-trigger">
                 {% assign sorted = (site.data.restaurantes | sort: 'name') %}
                 {% for restaurante in sorted %}
@@ -13,7 +28,7 @@
                                 {% if restaurante.thumbnailUrl != null %}
                                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/restaurant/' | append: restaurante.thumbnailUrl }})">
                                 {% endif %}
-                                <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/restaurant/' | append: restaurante.thumb }})">
+                                <figure class="waves-effect waves-block waves-light" style="background-image: url({{ restaurante.thumb }})">
 
                                     
 
