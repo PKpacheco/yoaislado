@@ -3,6 +3,17 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
 
+            {% assign items_grouped = site.data.restaurantes | group_by: 'category' %}
+            {{items_grouped}}
+
+
+            {% assign items_grouped = site.posts | group_by: 'category' %}
+            {% for group in items_grouped %}
+                <h3>{{group.name}}</h3>
+                {% for item in group.items %}
+                    <p>{{item.name}}</p>
+                {% endfor %}
+            {% endfor %}
 
             <div class="dropdown">
                 <button class="dropbtn">Categorias
@@ -11,12 +22,11 @@
                 <div class="dropdown-content">
                     {% assign items_grouped = site.data.restaurantes | group_by: 'category' %}
                     {% for group in items_grouped %}
-                      <a href="#category">{{group.category}}</a>
                       {% for item in group.items %}
                         <a href="#item_category">{{item.category}}</a>
                       {% endfor %}
                     {% endfor %}
-  
+
                 </div>
               </div>
 
