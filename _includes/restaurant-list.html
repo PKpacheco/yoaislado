@@ -3,12 +3,6 @@
 <section id="restaurantes" class="restaurantes">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <div>
-                {% assign items_grouped = site.data.restaurantes | group_by: 'category' %}
-                {% for group in items_grouped %}
-                    <a href="{{ site.baseurl }}/restaurantes/{{group.name}}">{{ group.name }} | </a>
-                {% endfor %}
-            </div>
             <div class="row text-left appear-animation-trigger">
                 {% assign sorted = (site.data.restaurantes | sort: 'name') %}
                 {% for restaurante in sorted %}
