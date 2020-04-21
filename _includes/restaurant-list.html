@@ -3,10 +3,6 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
 
-            {% assign items_grouped = site.data.restaurantes | group_by: 'category' %}
-            {{items_grouped}}
-
-
             {% assign items_grouped = site.posts | group_by: 'category' %}
             {% for group in items_grouped %}
                 <h3>{{group.name}}</h3>
