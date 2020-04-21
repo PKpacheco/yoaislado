@@ -201,16 +201,12 @@
   name: "Cerveza"
   surname: "Jagger"
   company: "Delivery Cerveza"
-  title: ""
-  bio: " "
-  thumbnailUrl: jagger.png
+  title: 
+  bio: 
   thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/14099476_342441229479712_958079099_a.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=U5SCMUtmdl8AX_OxnkR&oh=a183621833c2363a028dd2341540a87e&oe=5EC9667B"
-  facebook:
   whatsapp:
   instagram: "jaggerbeers"
   site: "cerveceriajagger.com.ar"
-  telefono:
-  email:
   ribbon:
     - {abbr: "Envios"}
 

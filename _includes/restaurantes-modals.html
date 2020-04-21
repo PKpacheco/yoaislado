@@ -1,7 +1,7 @@
 <!-- Begin restaurantes Modals -->
 <div class="modals" class="modals">
 	{% for restaurante in site.data.restaurantes %}
-		{% if page.modal == "all" or (page.modal == 'team' and (restaurante.team != null or restaurante.subTeam != null)) %}
+		{% if page.modal == "all"  %}
 		<div class="modal fade text-left people-modal" id="restauranteDetail-{{ restaurante.id }}" tabindex="-1" role="dialog" aria-labelledby="restauranteDetailLabel-{{ restaurante.id }}" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -12,7 +12,7 @@
 							</svg>
 							<div class="close-mask" data-dismiss="modal"></div>
 						</div>
-						{% if site.showSessions %}
+						<!-- {% if site.showSessions %}
 							{% for session in site.data.sessions %}
 								{% for session_restaurante in session.restaurantes %}
 									{% if session_restaurante == restaurante.id %}
@@ -36,7 +36,7 @@
 								{% endfor %}		
 							{% endfor %}
 							<hr>
-						{% endif %}
+						{% endif %} -->
 						<div class="people-details">
 							<div class="row">
 								<div class="col-md-2 col-sm-2">
