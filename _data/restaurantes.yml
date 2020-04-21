@@ -3,6 +3,7 @@
 #   name: "Teste "
 #   surname: "Teste"
 #   company: "Teste Teste "
+#   category: teste
 #   title: ""
 #   bio: "biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio"
 #   thumbnailUrl: 
@@ -72,7 +73,9 @@
 
 -
   id: 4
-  category: ["pasteleria", "teste"]
+  categories: 
+      - {category: "Pasteleria "}
+      - {category: "Category2 "}
   name: "Petit"
   surname: "Patisserie"
   company: "Delivery de desayunos y pasteleria"
