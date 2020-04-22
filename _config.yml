@@ -81,9 +81,9 @@ directionDetailsTitle: "Preguntas"
 directionDetailsCards:
  - {title: "¿Qué es Yo Aislado?", information: 'Yo Aislado es un sitio para agrupar negocios en Mendoza.'}
  - {title: "¿Cuáles negocios?", information: 'Yo Aislado tiene 3 categorias, restaurantes| Comida, todo tipo de negocio relacionado a comida, viandas, viandas congeladas y otros. Servicios, lavanderia, tintorerías, tiendas de ropas, informática y otras. Y donación. '}
- - {title: "¿Qué son las Donaciones?", information: 'Nosotros queremos ayudar a compartir las instituicones que necesitan de donación, comedores, familias y otros.'}
+ - {title: "¿Qué son las Donaciones?", information: 'Nosotros queremos ayudar a compartir las instituiciones que necesitan de donación, comedores, familias y otros.'}
  - {title: "¿Cuanto custa registrar mi negocio | instituición?", information: 'NADA! Es gratis!'}
- - {title: "Como hago para registrar mi negocio | instituición?", information: 'NADA! Es gratis!'}
+ - {title: "Como hago para registrar mi negocio | instituición?", information: 'Por nuestro <a href="https://www.facebook.com/Yo-Aislado-104862687863958">Facebook</a> o <a href="http://instagram.com/yo_aislado">Instagram, @yo_aislado</a> podes enviar un mensaje!!'}
  - {title: "¿Me tengo que registrar para usarlo?", information: 'No.'}
  - {title: "¿Cómo encuentro ustedes?", information: 'Estamos en Instagram  <a href="http://instagram.com/yo_aislado">@yo_aislado</a>.'}
 
