@@ -178,3 +178,75 @@
   email:
   categories: 
     - {category: "Ropa"}
+
+-
+  id: 11
+  name: "Kismemendoza"
+  surname:
+  company: "Sex Shop"
+  title:
+  bio: 
+  thumbnailUrl:
+  thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/45333256_2128786580516981_8312677904534208512_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=rYefLHoVF2wAX_PDriB&oh=6b9e0020cae953e6f8f315421d8bc079&oe=5EC9064C"
+  facebook:
+  whatsapp: "5492616682617"
+  instagram: "kismemendoza"
+  site: "sexshopargentina.com.ar"
+  telefono:
+  email:
+  categories: 
+    - {category: "Sex Shop"}
+
+# -
+#   id: 12
+#   name: "Fanas"
+#   surname: "Calzas"
+#   company: "Calzas"
+#   title:
+#   bio: 
+#   thumbnailUrl:
+#   thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/69969957_751083181982295_1774754188345999360_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=8C1kG8zI1XsAX_lufVD&oh=15ba86dce2812fdb761e203715866168&oe=5EC91CFB"
+#   facebook:
+#   whatsapp:
+#   instagram: "fanas.calzas"
+#   site:
+#   telefono:
+#   email:
+#   categories: 
+#     - {category: "Ropa"}
+
+# -
+#   id: 13
+#   name: "Fanas"
+#   surname: "Calzas"
+#   company: "Calzas"
+#   title:
+#   bio: 
+#   thumbnailUrl:
+#   thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/69969957_751083181982295_1774754188345999360_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=8C1kG8zI1XsAX_lufVD&oh=15ba86dce2812fdb761e203715866168&oe=5EC91CFB"
+#   facebook:
+#   whatsapp:
+#   instagram: "fanas.calzas"
+#   site:
+#   telefono:
+#   email:
+#   categories: 
+#     - {category: "Ropa"}
+  
+# -
+#   id: 14
+#   name: "Fanas"
+#   surname: "Calzas"
+#   company: "Calzas"
+#   title:
+#   bio: 
+#   thumbnailUrl:
+#   thumb: "https://instagram.faep18-1.fna.fbcdn.net/v/t51.2885-19/s320x320/69969957_751083181982295_1774754188345999360_n.jpg?_nc_ht=instagram.faep18-1.fna.fbcdn.net&_nc_ohc=8C1kG8zI1XsAX_lufVD&oh=15ba86dce2812fdb761e203715866168&oe=5EC91CFB"
+#   facebook:
+#   whatsapp:
+#   instagram: "fanas.calzas"
+#   site:
+#   telefono:
+#   email:
+#   categories: 
+#     - {category: "Ropa"}
