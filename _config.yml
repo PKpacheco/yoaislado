@@ -19,7 +19,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Yo Aislado"
 email: "paolakatherine.ar@gmail.com"
 description: "Plataforma para agrupar pequeños negocios en Mendoza."
-baseurl: "/"
+baseurl: "/yoaislado"
 url: "http://pkpacheco.github.io/yoaislado/"
 # permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-163890575-1"
@@ -33,6 +33,7 @@ navigationLinks:
  - {permalink: "/restaurantes/", text: "Restaurantes"}
  - {permalink: "/servicios/", text: "Servicios"}
  - {permalink: "/donaciones/", text: "Donaciones"}
+ - {permalink: "/preguntas/", text: "Preguntas"}
 
 
 # Hero Block
@@ -74,3 +75,16 @@ footerBlocks:
   links:
 
    - {link: "mailto:paolakatherine.ar@gmail.com", text: "paolakatherine.ar@gmail.com"}
+
+#Questiones
+directionDetailsTitle: "Preguntas"
+directionDetailsCards:
+ - {title: "¿Qué es Yo Aislado?", information: 'Yo Aislado es un sitio para agrupar negocios en Mendoza.'}
+ - {title: "¿Cuáles negocios?", information: 'Yo Aislado tiene 3 categorias, restaurantes| Comida, todo tipo de negocio relacionado a comida, viandas, viandas congeladas y otros. Servicios, lavanderia, tintorerías, tiendas de ropas, informática y otras. Y donación. '}
+ - {title: "¿Qué son las Donaciones?", information: 'Nosotros queremos ayudar a compartir las instituicones que necesitan de donación, comedores, familias y otros.'}
+ - {title: "¿Cuanto custa registrar mi negocio | instituición?", information: 'NADA! Es gratis!'}
+ - {title: "Como hago para registrar mi negocio | instituición?", information: 'NADA! Es gratis!'}
+ - {title: "¿Me tengo que registrar para usarlo?", information: 'No.'}
+ - {title: "¿Cómo encuentro ustedes?", information: 'Estamos en Instagram  <a href="http://instagram.com/yo_aislado">@yo_aislado</a>.'}
+
+ 
