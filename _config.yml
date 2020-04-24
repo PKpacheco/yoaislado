@@ -64,6 +64,8 @@ statisticBlock:
 # Footer
 socialLinks:
  - {link: "https://www.facebook.com/Yo-Aislado-104862687863958", icon: "facebook"}
+ - {link: "https://www.instagram.com/yo-aislado", icon: "instagram"}
+
 footerBlocks:
  -
   title: "Links"

@@ -63,54 +63,69 @@
 
 									<ul>
 										{% if restaurante.facebook %}
-											<li>
-												<a href="https://www.facebook.com/{{restaurante.facebook}}"target="_blank">Facebook</a>
-											</li>
+										<a href="https://www.facebook.com/{{restaurante.facebook}}"target="_blank">
+											<svg class="icon icon-facebook" viewBox="0 0 30 32">
+												<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-facebook"></use>
+											</svg>
+											{{restaurante.facebook}} <br><br>
+										</a>
 										{% endif %}
 
 										{% if restaurante.whatsapp %}
-											<li>
-												<a href="https://wa.me/{{restaurante.whatsapp}}" target="_blank">Whatsapp</a>
-											</li>
+											<a href="https://wa.me/{{restaurante.whatsapp}}" target="_blank">
+											<svg class="icon icon-whatsapp" viewBox="0 0 30 32">
+												<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-whatsapp"></use>
+											</svg>
+											{{restaurante.whatsapp}} <br><br>
 										{% endif %}
 										
 										{% if restaurante.instagram %}
-											<li>
-												<a href="https://www.instagram.com/{{restaurante.instagram}}" target="_blank">Instagram</a>
-											</li>
+											<a href="https://www.instagram.com/{{restaurante.instagram}}" target="_blank">
+												<svg class="icon icon-instagram" viewBox="0 0 30 32">
+													<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-instagram"></use>
+												</svg>
+												{{restaurante.instagram}} <br><br>
+											</a>
 										{% endif %}
 
 										{% if restaurante.site %}
-											<li>
-												<a href="https://www.{{restaurante.site}}" target="_blank">Sitio Web</a>
-											</li>
+											<a href="https://www.{{restaurante.site}}" target="_blank">
+												<svg class="icon icon-site" viewBox="0 0 30 32">
+													<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-site"></use>
+												</svg>
+											{{restaurante.site}} <br><br>
+											</a>
 										{% endif %}
 
 										{% if restaurante.telefono %}
-											<li>
-												<a href="tel:{{restaurante.telefono}}" target="_blank">Telefono </a>
-											</li>
+											<a href="tel:{{restaurante.phone}}" target="_blank">
+												<svg class="icon icon-site" viewBox="0 0 30 32">
+													<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-phone"></use>
+												</svg>
+											{{restaurante.telefono}} <br><br>
+											</a>
 										{% endif %}
 
 										{% if restaurante.email %}
-										<li>
-											<a href="mailto:{{restaurante.email}}" target="_blank">Email </a>
-										</li>
+											<a href="mailto:{{restaurante.email}}" target="_blank">
+												<svg class="icon icon-email" viewBox="0 0 30 32">
+													<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-email"></use>
+												</svg>
+											{{restaurante.email}} <br><br>
+											</a>
 										{% endif %}
 									</ul>
 
 
-									<!-- <ul class="social">
-										{% for social in restaurante.social %}
+									<ul class="social">
 											<li>
 												<a href="{{ social["link"] }}" target="_blank">
-													<svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
-														<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+													<svg class="icon icon-facebook" viewBox="0 0 30 32">
+														<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social.facebook }}"></use>
 													</svg>
 												</a>
 											</li>
-										{% endfor %}
-									</ul> -->
+									</ul>
 								</div>
 							</div>
 						</div>

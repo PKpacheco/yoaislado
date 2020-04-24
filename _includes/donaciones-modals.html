@@ -65,39 +65,56 @@
 									<p class="about">{{ donacion.bio }}</p>
 									<ul>
 										{% if donacion.facebook %}
-											<li>
-												<a href="https://www.facebook.com/{{donacion.facebook}}"target="_blank">Facebook</a>
-											</li>
+										<a href="https://www.facebook.com/{{donacion.facebook}}"target="_blank">
+											<svg class="icon icon-facebook" viewBox="0 0 30 32">
+												<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-facebook"></use>
+											</svg>
+											{{donacion.facebook}} <br><br>
+										</a>
 										{% endif %}
 
 										{% if donacion.whatsapp %}
-											<li>
-												<a href="https://wa.me/{{donacion.whatsapp}}" target="_blank">Whatsapp</a>
-											</li>
+											<a href="https://wa.me/{{donacion.whatsapp}}" target="_blank">
+											<svg class="icon icon-whatsapp" viewBox="0 0 30 32">
+												<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-whatsapp"></use>
+											</svg>
+											{{donacion.whatsapp}} <br><br>
 										{% endif %}
 										
 										{% if donacion.instagram %}
-											<li>
-												<a href="https://www.instagram.com/{{donacion.instagram}}" target="_blank">Instagram</a>
-											</li>
+											<a href="https://www.instagram.com/{{donacion.instagram}}" target="_blank">
+												<svg class="icon icon-instagram" viewBox="0 0 30 32">
+													<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-instagram"></use>
+												</svg>
+												{{donacion.instagram}} <br><br>
+											</a>
 										{% endif %}
 
 										{% if donacion.site %}
-											<li>
-												<a href="https://www.{{donacion.site}}" target="_blank">Sitio Web</a>
-											</li>
+											<a href="https://www.{{donacion.site}}" target="_blank">
+												<svg class="icon icon-site" viewBox="0 0 30 32">
+													<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-site"></use>
+												</svg>
+											{{donacion.site}} <br><br>
+											</a>
 										{% endif %}
 
 										{% if donacion.telefono %}
-											<li>
-												<a href="tel:{{donacion.telefono}}" target="_blank">Telefono </a>
-											</li>
+											<a href="tel:{{donacion.phone}}" target="_blank">
+												<svg class="icon icon-site" viewBox="0 0 30 32">
+													<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-phone"></use>
+												</svg>
+											{{donacion.telefono}} <br><br>
+											</a>
 										{% endif %}
 
 										{% if donacion.email %}
-										<li>
-											<a href="mailto:{{donacion.email}}" target="_blank">Email </a>
-										</li>
+											<a href="mailto:{{donacion.email}}" target="_blank">
+												<svg class="icon icon-email" viewBox="0 0 30 32">
+													<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-email"></use>
+												</svg>
+											{{donacion.email}} <br><br>
+											</a>
 										{% endif %}
 									</ul>
 						
